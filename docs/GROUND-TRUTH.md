@@ -1,0 +1,26 @@
+# Ground truth — v7 (2026-10-18)
+D1 Startkapital: 5.000 DKK (≈ 670 EUR / ≈ 720 USD). Ingen yderligere kapital. — source: Jakob — v1
+D2 Må IKKE være Danish Drone Dynamics eller kræve droneflyvning. Separat forretning, worldwide marked tilladt. — source: Jakob — v1
+D3 Efter opstart: nul menneskeligt arbejde. AI håndterer drift, levering, kundeservice og ALT salg. Uundgåelige engangs-trin for mennesket (KYC, konto-oprettelse, juridisk ejerskab, skat) skal listes eksplicit og minimeres. — source: Jakob — v1
+D4 Kun lovlige og etiske modeller: ingen svindel, spam, falske anmeldelser, efterligning af mennesker/brands, ophavsretskrænkelse, vildledende "AI-indkomst"-kurser, gambling eller gearet trading. Overhold platformes vilkår. — source: orchestrator (non-negotiable) — v1
+D5 Mål: Jakob vil være gældfri hurtigst muligt via passiv, systemiseret indkomst. Stretch-mål: 200.000 DKK inden for 12 måneder. Realisme vægtes over hype. — source: Jakob — v1
+D6 Ejer bor i Danmark (dansk skat/moms gælder). Har teknisk baggrund (elektronik, software-hobbyprojekter, drone/FPV), men skal ikke selv arbejde i forretningen. — source: Jakob/profile — v1
+D7 AI-kapacitet i dag: Claude kan bygge og publicere web-apps/sider, kode, skrive, køre planlagte opgaver og agenter via API på en server. Claude har ingen egen bankkonto eller juridisk identitet. — source: orchestrator — v1
+D8 Inbound-only sales (marketplaces, useful free tool, opt-in list). No cold email/DM (Markedsføringsloven §10 covers B2B too). — source: INTEGRATED (S1 wave 1–3) — v2
+D9 All sales through a merchant of record or marketplace (Apify Store / Paddle / Lemon Squeezy); no direct Stripe. — source: INTEGRATED — v2
+D10 "AI-built, not AI-run on the money path": no AI call in checkout/delivery; prices, refunds, payout details in read-only config; kill switch; AI disclosure; high-risk topics refused. — source: INTEGRATED (critic + synthesiser) — v2
+D11 Staged spend: max ~1,000 DKK until first paying customer; rest held; API via prepaid credits with auto-reload off. — source: INTEGRATED (critic) — v2
+D12 Honest owner time: ~1 day setup, then ~20–30 min/week + annual tax. Zero is not achievable. — source: INTEGRATED — v2
+D13 Stream S2: crypto trading. Step 1 = real-time paper-trading simulation on live market data with virtual 5,000 DKK. No real money until a strategy beats buy-and-hold after fees and Danish tax over a meaningful period. — source: Jakob msg 3 + orchestrator — v3
+D14 Jakob is fully tax-liable in Denmark. Running things from outside the EU does not change his Danish tax liability or the laws that apply to him. No schemes to evade law or tax. — source: orchestrator (non-negotiable) — v3
+D15 For S2 Jakob accepts doing some work himself. Hardware available: home PC "bigcamper" (Windows) and a TrueNAS NAS at home that could host a 24/7 bot (Docker). Claude's cloud workspace cannot reach exchange APIs (network allowlist). — source: Jakob msg 3 / memory / orchestrator — v3
+D16 Live money (if ever): spot only, no leverage/margin/futures (losses can exceed the stake). The simulation itself may test any strategy. — source: orchestrator — v3
+D17 The 5,000 DKK is Jakob's own money, not borrowed. — source: Jakob msg 4 — v4
+D18 Target host for S2: a small program on a Raspberry Pi, 24/7, that runs the simulation AND monitors whether we are making money (P&L vs buy-and-hold). NAS/PC are fallbacks. — source: Jakob msg 4 — v4
+Superseded: D11 (max ~1,000 DKK before proof) → for S2 replaced by D13 (no real money until the simulation passes) (v4)
+D19 Jakob already has a Binance account. Simulation uses Binance PUBLIC market data (no API key). Any live use depends on Binance being authorised to serve Danish residents under MiCA after the 1 Jul 2026 transition cutoff (being checked by S2-r1 / lens 4). — source: Jakob msg 5 — v5
+D20 Host = Jakob's existing ORIGINAL Raspberry Pi Zero (not Zero 2; ARMv6, single core, 512 MB RAM). Therefore: one lightweight Python program, standard library only (or pure-Python deps), polling every few minutes, no Docker, no Freqtrade, no numpy-heavy stack on the Pi. Historical backtests run on the home PC/NAS. Confirmed: Pi Zero W (has Wi-Fi, 2.4 GHz). — source: Jakob msg 7+8 — v6
+D21 Test length: Jakob proposes 14 days. Orchestrator proposal (pending Jakob): 14 days = system check + first read only; a go-live decision also needs a multi-year historical backtest incl. falling markets and a longer live run (~90 days), with PASS/FAIL criteria locked before start. — source: Jakob msg 7 + orchestrator — v6
+D21 → FINAL (Jakob approved): 14 days = first system check + first read; then multi-year historical backtest (on PC) + live sim up to ~90 days before any real money. — source: Jakob msg 10 — v7
+D22 Go-live PASS/FAIL rules: orchestrator proposes, Jakob approves, then they are LOCKED (versioned, timestamped) before the sim starts; no changes mid-test. — source: Jakob msg 10 — v7
+D23 No push notifications. The Pi publishes its results (state + daily summary + "last heartbeat" time) to a place Claude can read; when Jakob asks in the Claude app, Claude reads it and reports (incl. "Pi silent since X" if the heartbeat is stale). Default channel: a pCloud folder (Claude has a pCloud connector, read-only use); fallback: email to his Gmail. — source: Jakob msg 10 + orchestrator — v7
