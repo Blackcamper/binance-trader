@@ -1,0 +1,18 @@
+[Unit]
+Description=pitrader paper-trading simulation (virtual money, public Kraken data)
+Wants=network-online.target time-sync.target
+After=network-online.target time-sync.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/binance-trader
+ExecStart=/usr/bin/python3 -m pitrader run
+Restart=always
+RestartSec=30
+Nice=10
+# no secrets and no inbound ports: the program only makes outbound HTTPS GETs
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
