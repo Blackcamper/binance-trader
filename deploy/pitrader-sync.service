@@ -1,0 +1,10 @@
+[Unit]
+Description=pitrader: pull new code and publish status (no trading, no money)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=pi
+ExecStart=/bin/sh /home/pi/binance-trader/deploy/pi-sync.sh
+Nice=15
