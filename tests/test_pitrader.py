@@ -4,10 +4,13 @@ import json
 import math
 import os
 import shutil
+import sys
 import tempfile
+import time
 import unittest
 
-from pitrader import config, strategies
+from pitrader import __main__ as cli
+from pitrader import config, strategies, tax
 from pitrader.kraken import Kraken, MarketError, closed_candles
 from pitrader.ledger import Book, walk_buy, walk_sell
 from pitrader.sim import ConfigChanged, Simulator
@@ -176,10 +179,30 @@ class TestLedger(unittest.TestCase):
         b.sell(1.0, 600.0, 0.0, T0)             # FIFO: cost 400 -> gain 200
         self.assertAlmostEqual(b.realised[2026], 200.0)
         sc = {"gain_rate": 0.5, "loss_value_rate": 0.25}
-        # open lot cost 500, bid 300 -> unrealised -200 nets the year to 0
-        self.assertAlmostEqual(b.tax(300.0, 0.0, sc, T0), 0.0)
-        # next year: gain 200 taxed in 2026, loss 200 in 2027 worth only 25%
+        # open lot cost 500, bid 300 -> unrealised -200. Same year or not, the loss
+        # cannot cancel the gain: 200 taxed at 50%, the 200 loss worth only 25%
+        self.assertAlmostEqual(b.tax(300.0, 0.0, sc, T0), 100.0 - 50.0)
         self.assertAlmostEqual(b.tax(300.0, 0.0, sc, T0 + 400 * 86400), 100.0 - 50.0)
+
+    def test_tax_return_report(self):
+        cfg = dict(CFG, eur_dkk=10.0)
+        b = Book(10000.0)
+        b.buy(1.0, 400.0, 4.0, T0 - 86400)
+        b.sell(1.0, 600.0, 6.0, T0)            # +190 EUR
+        b.buy(1.0, 500.0, 5.0, T0 + 86400)
+        b.sell(1.0, 450.0, 4.5, T0 + 2 * 86400)  # -59.5 EUR
+        b.buy(1.0, 500.0, 0.0, T0 + 400 * 86400)
+        b.sell(1.0, 700.0, 0.0, T0 + 401 * 86400)  # next year, not in the 2026 return
+        rep = tax.year_report(b, {"id": "x", "pair": "XBTEUR"}, cfg, 2026)
+        self.assertEqual(len(rep["sales"]), 2)
+        self.assertEqual(rep["rubrik20_dkk"], 1900)
+        self.assertEqual(rep["rubrik58_dkk"], 595)
+        self.assertEqual(rep["sales"][0]["first_bought"], "2026-10-23")
+        self.assertEqual(rep["tax_dkk"]["high"], round(1900 * 0.53 - 595 * 0.26))
+        text = tax.render(rep, cfg)
+        self.assertIn("Rubrik 20", text)
+        self.assertIn("1.900", text)
+        self.assertIn("Rubrik 58", text)
 
 
 class TestSimulator(Base):
@@ -228,6 +251,26 @@ class TestSimulator(Base):
             self.assertGreater(r["equity_dkk"], 0)
         with open(os.path.join(self.tmp, "summary.txt")) as f:
             self.assertIn("Baseline, pay down", f.read())
+        don = [r for r in st["strategies"] if r["id"] == "donchian_btc"][0]
+        self.assertEqual(don["tax_return"]["year"], 2026)
+        self.assertGreaterEqual(don["tax_return"]["rubrik20_gains_dkk"], 0)
+        # the CLI report reads the same journal without touching the network
+        out = io.StringIO()
+        csv_path = os.path.join(self.tmp, "skat.csv")
+        old, sys.stdout = sys.stdout, out
+        try:
+            rc = cli.main(["skat", "--data-dir", self.tmp, "--year", "2026",
+                           "--csv", csv_path])
+        finally:
+            sys.stdout = old
+        self.assertEqual(rc, 0)
+        self.assertIn("SKAT 2026  strategi donchian_btc", out.getvalue())
+        with open(csv_path) as f:
+            rows = f.read().splitlines()
+        sold = sum(1 for b in again.books.values() for d in b.disposals
+                   if time.gmtime(d["t"]).tm_year == 2026)
+        self.assertGreater(sold, 0)
+        self.assertEqual(len(rows) - 1, sold)
 
     def test_costs_make_flat_market_lose(self):
         m = FakeMarket(lambda t: 50000.0)
