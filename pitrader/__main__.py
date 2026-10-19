@@ -4,6 +4,7 @@
   python3 -m pitrader run              poll forever (what systemd runs)
   python3 -m pitrader once             a single poll, then exit
   python3 -m pitrader status           print the latest summary
+  python3 -m pitrader skat [--year Y]  what the paper trades would mean for the tax return
 """
 
 import argparse
@@ -11,7 +12,7 @@ import os
 import sys
 import time
 
-from . import config, health
+from . import config, health, tax
 from .kraken import Kraken, MarketError
 from .sim import ConfigChanged, Simulator
 
@@ -22,9 +23,12 @@ DEFAULT_DATA = os.path.join(HERE, "data", "sim-v1")
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="pitrader")
-    ap.add_argument("command", choices=["check", "run", "once", "status"])
+    ap.add_argument("command", choices=["check", "run", "once", "status", "skat"])
     ap.add_argument("--config", default=DEFAULT_CONFIG)
     ap.add_argument("--data-dir", default=DEFAULT_DATA)
+    ap.add_argument("--year", type=int, help="skat: income year (default this year)")
+    ap.add_argument("--strategy", help="skat: one strategy id (default all)")
+    ap.add_argument("--csv", help="skat: also write every sale to this CSV file")
     args = ap.parse_args(argv)
 
     if args.command == "status":
@@ -37,6 +41,8 @@ def main(argv=None):
         return 0
 
     cfg = config.load(args.config)
+    if args.command == "skat":
+        return skat(cfg, args)
     market = Kraken(request_gap=cfg.get("request_gap_seconds", 1.2))
 
     if args.command == "check":
@@ -63,6 +69,29 @@ def main(argv=None):
         # align to the period boundary so polls land just after candle closes
         now = time.time()
         time.sleep(wait - (now % period) + 5 if ok else wait)
+
+
+def skat(cfg, args):
+    if not os.path.exists(os.path.join(args.data_dir, "journal.jsonl")):
+        print("no journal in %s" % args.data_dir)
+        return 1
+    try:
+        sim = Simulator(cfg, args.data_dir, market=None)
+    except ConfigChanged as e:
+        print("REFUSED: %s" % e, file=sys.stderr)
+        return 2
+    year = args.year or time.gmtime().tm_year
+    ids = [args.strategy] if args.strategy else list(sim.strats)
+    unknown = [i for i in ids if i not in sim.strats]
+    if unknown:
+        print("unknown strategy: %s" % ", ".join(unknown), file=sys.stderr)
+        return 2
+    reports = [tax.year_report(sim.books[i], sim.strats[i], cfg, year) for i in ids]
+    sys.stdout.write("\n".join(tax.render(r, cfg) for r in reports))
+    if args.csv:
+        tax.write_csv(reports, args.csv)
+        print("CSV: %s" % args.csv)
+    return 0
 
 
 def check(cfg, market):

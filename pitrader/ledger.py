@@ -3,10 +3,12 @@
 Amounts are kept in EUR (Kraken EUR pairs) and converted to DKK at a fixed rate for
 reporting. Buy fees go into the cost basis, sell fees reduce the proceeds.
 
-Tax model (CONSOLIDATED-S2 A5, needs SKAT/accountant confirmation): every sale is a
-realisation, FIFO per coin; each calendar year's net gain is taxed at gain_rate and a
-net loss is worth loss_value_rate. "After-tax equity" also taxes the open position as
-if sold at the current bid, so buy-and-hold carries its notional tax too.
+Tax model (docs/research/S2-r3-skat-selvangivelse.md): every sale is a realisation,
+FIFO per coin, and each sale is settled on its own. Gains are summed and taxed at
+gain_rate (personal income, rubrik 20); losses are summed and are only worth
+loss_value_rate (ligningsmæssigt fradrag, rubrik 58). A loss never cancels a gain at
+the full rate. "After-tax equity" also taxes the open position as if sold at the
+current bid, so buy-and-hold carries its notional tax too.
 """
 
 import time
@@ -21,22 +23,23 @@ class Book:
     def __init__(self, cash_eur):
         self.start_eur = cash_eur
         self.cash = cash_eur
-        self.lots = deque()          # [qty, cost_eur] per lot, oldest first
+        self.lots = deque()          # [qty, cost_eur, bought_ts] per lot, oldest first
         self.fees = 0.0
         self.buys = 0
         self.sells = 0
         self.realised = {}           # year -> net realised gain EUR
+        self.disposals = []          # one dict per sale, for the tax report
 
     @property
     def qty(self):
         return sum(l[0] for l in self.lots)
 
-    def buy(self, qty, gross_eur, fee_eur):
+    def buy(self, qty, gross_eur, fee_eur, ts=None):
         self.cash -= gross_eur + fee_eur
         if self.cash < -1e-6:
             raise ValueError("buy exceeds cash")
         self.cash = max(self.cash, 0.0)
-        self.lots.append([qty, gross_eur + fee_eur])
+        self.lots.append([qty, gross_eur + fee_eur, ts])
         self.fees += fee_eur
         self.buys += 1
 
@@ -46,6 +49,7 @@ class Book:
         net = gross_eur - fee_eur
         cost = 0.0
         left = qty
+        first_bought = self.lots[0][2] if self.lots else None
         while left > 1e-15 and self.lots:
             lot = self.lots[0]
             take = min(lot[0], left)
@@ -58,6 +62,9 @@ class Book:
                 self.lots.popleft()
         y = year_of(ts)
         self.realised[y] = self.realised.get(y, 0.0) + net - cost
+        self.disposals.append({"t": ts, "qty": qty, "proceeds": net, "cost": cost,
+                               "fee": fee_eur, "gain": net - cost,
+                               "first_bought": first_bought})
         self.cash += net
         self.fees += fee_eur
         self.sells += 1
@@ -70,19 +77,13 @@ class Book:
 
     def tax(self, bid, fee_rate, scenario, now):
         """Tax owed (negative = deduction value) if everything were sold now at bid."""
-        by_year = dict(self.realised)
+        gains = [d["gain"] for d in self.disposals]
         q = self.qty
         if q > 0:
-            gross = q * bid
-            unreal = gross * (1 - fee_rate) - self.cost_basis()
-            y = year_of(now)
-            by_year[y] = by_year.get(y, 0.0) + unreal
+            gains.append(q * bid * (1 - fee_rate) - self.cost_basis())
         total = 0.0
-        for net in by_year.values():
-            if net > 0:
-                total += net * scenario["gain_rate"]
-            else:
-                total += net * scenario["loss_value_rate"]
+        for g in gains:
+            total += g * (scenario["gain_rate"] if g > 0 else scenario["loss_value_rate"])
         return total
 
     def after_tax_value(self, bid, fee_rate, scenario, now):

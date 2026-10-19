@@ -5,7 +5,7 @@ import json
 import os
 import time
 
-from . import __version__, config, strategies
+from . import __version__, config, strategies, tax
 from .journal import Journal, append_line, write_atomic
 from .kraken import MarketError
 from .ledger import Book, walk_buy, walk_sell
@@ -82,7 +82,7 @@ class Simulator:
         elif kind == "fill":
             book = self.books[ev["sid"]]
             if ev["side"] == "buy":
-                book.buy(ev["qty"], ev["gross"], ev["fee"])
+                book.buy(ev["qty"], ev["gross"], ev["fee"], ev["t"])
             else:
                 book.sell(ev["qty"], ev["gross"], ev["fee"], ev["t"])
             self.pending.pop(ev["sid"], None)
@@ -218,10 +218,17 @@ class Simulator:
                 "buys": book.buys, "sells": book.sells,
                 "max_drawdown_pct": round(max_dd * 100, 2),
                 "pending": self.pending[sid]["side"] if sid in self.pending else None,
+                "tax_return": self._tax_return(book, s, now),
             })
         debt = self.cfg["debt_baseline"]
         rate = debt["apr"] * (1 - debt["interest_deduction_rate"])
         return rows, round(cap * (1 + rate) ** (days / 365.0), 2), days
+
+    def _tax_return(self, book, strat, now):
+        rep = tax.year_report(book, strat, self.cfg, time.gmtime(now).tm_year)
+        return {"year": rep["year"], "sales": len(rep["sales"]),
+                "rubrik20_gains_dkk": rep["rubrik20_dkk"],
+                "rubrik58_losses_dkk": rep["rubrik58_dkk"], "tax_dkk": rep["tax_dkk"]}
 
     def _write_status(self, now, health, prices, trading_ok):
         rt = self.runtime

@@ -13,6 +13,7 @@ Virtual 5,000 DKK, live public market data, results after fees, slippage and Dan
 ## Pi simulator
 - Code: `pitrader/` (Python 3 standard library only), config: `config/sim-v1.json` (locked per run).
 - Setup on the Pi: `docs/PI-SETUP.md`. Tests: `python3 -m unittest discover -s tests`.
+- Tax return view: `python3 -m pitrader skat --year 2026` prints rubrik 20 (gains) and rubrik 58 (losses) per strategy; add `--csv sales.csv` for every sale. Rules: `docs/research/S2-r3-skat-selvangivelse.md`.
 
 ## Ground rules (short)
 - Simulation first. No real money until a strategy passes the locked go-live rules.
