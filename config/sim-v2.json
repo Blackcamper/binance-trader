@@ -1,0 +1,30 @@
+{
+  "run_name": "sim-v2",
+  "capital_dkk": 5000,
+  "eur_dkk": 7.46038,
+  "poll_seconds": 300,
+  "request_gap_seconds": 1.2,
+  "taker_fee": 0.008,
+  "extra_slippage_bps": 5,
+  "depth_count": 50,
+  "tax_scenarios": {
+    "high": {"gain_rate": 0.53, "loss_value_rate": 0.26},
+    "low": {"gain_rate": 0.37, "loss_value_rate": 0.26}
+  },
+  "debt_baseline": {"apr": 0.0576, "interest_deduction_rate": 0.26},
+  "require_ntp": true,
+  "stale_after_seconds": 1800,
+  "strategies": [
+    {"id": "bh_btc", "type": "buy_and_hold", "pair": "XBTEUR"},
+    {"id": "bh_eth", "type": "buy_and_hold", "pair": "ETHEUR"},
+    {"id": "dca_btc", "type": "dca", "pair": "XBTEUR", "weeks": 52},
+    {"id": "dipdca_btc", "type": "dip_dca", "pair": "XBTEUR", "weeks": 52, "sma_days": 200, "deep": 0.20},
+    {"id": "ema_btc", "type": "ema_cross", "pair": "XBTEUR", "interval": 1440, "fast": 50, "slow": 200},
+    {"id": "faber_btc", "type": "faber", "pair": "XBTEUR", "interval": 1440, "months": 10},
+    {"id": "tsmom12_btc", "type": "tsmom", "pair": "XBTEUR", "interval": 1440, "months": 12},
+    {"id": "voltgt_btc", "type": "vol_target", "pair": "XBTEUR", "interval": 1440, "target_vol": 0.40, "com": 60, "band": 0.10},
+    {"id": "crash_btc", "type": "crash_exit", "pair": "XBTEUR", "interval": 1440, "drop": 0.25, "high_days": 365, "sma_days": 200},
+    {"id": "donchian_btc", "type": "donchian", "pair": "XBTEUR", "interval": 240, "entry": 20, "exit": 10},
+    {"id": "donchian_eth", "type": "donchian", "pair": "ETHEUR", "interval": 240, "entry": 20, "exit": 10}
+  ]
+}

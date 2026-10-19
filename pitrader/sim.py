@@ -89,6 +89,8 @@ class Simulator:
             self.trades[ev["sid"]].append(ev)
         elif kind == "cancel":
             self.pending.pop(ev["sid"], None)
+        elif kind == "skip":
+            self.orders[ev["sid"]].append(ev["t"])
 
     # ---- one poll ----------------------------------------------------------
 
@@ -141,7 +143,8 @@ class Simulator:
                     self._record({"e": "cancel", "t": now, "sid": sid, "why": "nothing held"})
                     continue
                 bids, _ = self.market.depth(pair, self.cfg["depth_count"])
-                qty, gross, fee, price, thin = walk_sell(bids, book.qty, self.fee, self.slip)
+                sell_qty = book.qty * min(1.0, order.get("frac", 1.0))
+                qty, gross, fee, price, thin = walk_sell(bids, sell_qty, self.fee, self.slip)
             self._record({"e": "fill", "t": now, "sid": sid, "side": order["side"],
                           "qty": qty, "gross": gross, "fee": fee, "price": price,
                           "thin_book": thin})
@@ -168,22 +171,51 @@ class Simulator:
                 if n < s["weeks"] and (n == 0 or now - self.orders[sid][-1] >= WEEK):
                     self._order(now, sid, "buy", self.capital_eur / s["weeks"],
                                 "DCA buy %d/%d" % (n + 1, s["weeks"]))
+            elif kind == "dip_dca":
+                n = len(self.orders[sid])
+                if book.cash < MIN_ORDER_EUR or (n and now - self.orders[sid][-1] < WEEK):
+                    continue
+                candles = self._closed(s["pair"], 1440, now)
+                mult = strategies.dip_multiplier(candles, s.get("sma_days", 200),
+                                                 s.get("deep", 0.20))
+                if mult is None:
+                    continue
+                if mult == 0:
+                    # skipped weeks still count as a week, so the cadence stays weekly
+                    self._record({"e": "skip", "t": now, "sid": sid, "why": "above 200d avg"})
+                    continue
+                self._order(now, sid, "buy", self.capital_eur / s["weeks"] * mult,
+                            "dip DCA %dx" % mult, candles[-1]["t"])
             else:
                 candles = self._closed(s["pair"], s["interval"], now)
                 want = strategies.target(s, candles)
                 if want is None:
                     continue
-                held = 1 if book.qty > 0 else 0
-                if want == 1 and held == 0 and book.cash >= MIN_ORDER_EUR:
-                    self._order(now, sid, "buy", book.cash, "signal long",
-                                candles[-1]["t"])
-                elif want == 0 and held == 1:
-                    self._order(now, sid, "sell", None, "signal flat", candles[-1]["t"])
+                self._rebalance(now, sid, s, book, candles, want)
 
-    def _order(self, now, sid, side, budget_eur, reason, candle=None):
+    def _rebalance(self, now, sid, s, book, candles, want):
+        """Move the holding toward `want` (share of equity in the coin). The current
+        share is valued at the decision candle's close, which for monthly rules is the
+        month-end close, so price drift inside the month never triggers a trade."""
+        ref = candles[-1]
+        if s["type"] in strategies.MONTHLY:
+            ref = strategies.through_month_end(candles)[-1]
+        step = rebalance_step(want, book.cash, book.qty, ref["c"], s.get("band", 0.5))
+        if step is None:
+            return
+        side, amount = step
+        reason = "target %.0f%%" % (want * 100)
+        if side == "buy":
+            self._order(now, sid, "buy", amount, reason, ref["t"])
+        else:
+            self._order(now, sid, "sell", None, reason, ref["t"], frac=amount)
+
+    def _order(self, now, sid, side, budget_eur, reason, candle=None, frac=None):
         ev = {"e": "order", "t": now, "sid": sid, "side": side, "reason": reason}
         if budget_eur is not None:
             ev["budget_eur"] = budget_eur
+        if frac is not None and frac < 1.0:
+            ev["frac"] = frac
         if candle is not None:
             ev["candle"] = candle
         self._record(ev)
@@ -268,6 +300,22 @@ class Simulator:
         if not os.path.exists(path):
             append_line(path, "utc," + ",".join(r["id"] for r in rows) + "\n")
         append_line(path, iso(now) + "," + ",".join("%.2f" % r["equity_dkk"] for r in rows) + "\n")
+
+
+def rebalance_step(want, cash, qty, price, band):
+    """What to do to move from the current share in the coin toward `want`.
+    Returns ("buy", budget_eur), ("sell", fraction_of_holding) or None. Binary rules
+    use band 0.5, so they only trade on a real flip; vol_target uses its 10-pt band."""
+    equity = cash + qty * price
+    held = qty * price / equity if equity > 0 else 0.0
+    if abs(want - held) < band:
+        return None
+    if want > held:
+        budget = cash if want >= 0.999 else min(cash, (want - held) * equity)
+        return ("buy", budget) if budget >= MIN_ORDER_EUR else None
+    if qty <= 0:
+        return None
+    return ("sell", 1.0 if want <= 0.001 else (held - want) / held)
 
 
 def iso(ts):

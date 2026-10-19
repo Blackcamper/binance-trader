@@ -1,0 +1,6 @@
+{
+  "url": "http://192.168.0.124:31434/api/chat",
+  "model": "qwen3:30b-a3b-instruct-2507-q4_K_M",
+  "num_ctx": 8192,
+  "timeout": 180
+}

@@ -7,7 +7,8 @@ the simulator refuses to continue a run whose config has changed (D22, lens 2).
 import hashlib
 import json
 
-STRATEGY_TYPES = ("buy_and_hold", "dca", "ema_cross", "donchian", "momentum")
+STRATEGY_TYPES = ("buy_and_hold", "dca", "dip_dca", "ema_cross", "donchian", "momentum",
+                  "faber", "tsmom", "vol_target", "crash_exit")
 REQUIRED = ("run_name", "capital_dkk", "eur_dkk", "poll_seconds", "taker_fee",
             "extra_slippage_bps", "depth_count", "tax_scenarios", "debt_baseline",
             "strategies")

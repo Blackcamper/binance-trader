@@ -4,6 +4,8 @@
   python3 -m pitrader run              poll forever (what systemd runs)
   python3 -m pitrader once             a single poll, then exit
   python3 -m pitrader status           print the latest summary
+  python3 -m pitrader llm-summary      daily status text from the NAS model (own timer)
+  python3 -m pitrader backtest         historical backtest on Bitstamp BTC/EUR
 """
 
 import argparse
@@ -11,20 +13,23 @@ import os
 import sys
 import time
 
-from . import config, health
+from . import backtest, config, health, llm
 from .kraken import Kraken, MarketError
 from .sim import ConfigChanged, Simulator
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DEFAULT_CONFIG = os.path.join(HERE, "config", "sim-v1.json")
-DEFAULT_DATA = os.path.join(HERE, "data", "sim-v1")
+DEFAULT_CONFIG = os.path.join(HERE, "config", "sim-v2.json")
+DEFAULT_DATA = os.path.join(HERE, "data", "sim-v2")
 
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="pitrader")
-    ap.add_argument("command", choices=["check", "run", "once", "status"])
+    ap.add_argument("command", choices=["check", "run", "once", "status", "llm-summary", "backtest"])
     ap.add_argument("--config", default=DEFAULT_CONFIG)
     ap.add_argument("--data-dir", default=DEFAULT_DATA)
+    ap.add_argument("--llm-config", default=os.path.join(HERE, "config", "llm.json"))
+    ap.add_argument("--runs", type=int, default=backtest.RANDOM_RUNS,
+                    help="random strategies per arm in the backtest")
     args = ap.parse_args(argv)
 
     if args.command == "status":
@@ -36,7 +41,18 @@ def main(argv=None):
             sys.stdout.write(f.read())
         return 0
 
+    if args.command == "llm-summary":
+        out = llm.daily_summary(args.data_dir, llm.load_settings(args.llm_config))
+        print(out["text"] if out["llm_ok"] else "model did not answer; facts written without text")
+        return 0
+
     cfg = config.load(args.config)
+    if args.command == "backtest":
+        _, report = backtest.run(cfg, os.path.join(HERE, "data", "hist"),
+                                 os.path.join(args.data_dir, "backtest"), runs=args.runs)
+        sys.stdout.write(report)
+        return 0
+
     market = Kraken(request_gap=cfg.get("request_gap_seconds", 1.2))
 
     if args.command == "check":
