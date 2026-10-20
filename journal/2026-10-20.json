@@ -1,0 +1,60 @@
+{
+ "date": "2026-10-20",
+ "written_utc": "2026-10-20T15:15Z",
+ "picks": [],
+ "no_pick_reason": "Ingen af nyhederne giver et entydigt købssignal inden for de næste fem handelsdage. META og INTC har kendte regnskabsdatoer (21. og 22. oktober), men retningen er ukendt, og META's faldende driftsresultat er allerede kendt og delvist prisat. JPMorgans opgradering af Intel til Neutral er en svag katalysator. Fed-signalet, de faldende europæiske aktier og den franske obligationsrente er makrorisiko, ikke aktiespecifik nyhed. AWS TorchNeuron, Anthropic-ASIC'en hos Broadcom, AMD Helios i 2027 og Apple-eventet den 28. oktober ligger uden for vinduet eller er allerede kendte.",
+ "headlines_read": 15,
+ "note": "Prøvekørsel startet manuelt 2026-10-20 efter markedsåbning.",
+ "headlines": [
+  {
+   "headline": "Earnings calendar week of Oct 19-23, 2026",
+   "url": "https://fffinstill.com/earnings-calendar/week/2026-10-19",
+   "area": "d"
+  },
+  {
+   "headline": "US stocks slip after Fed projections show possible 2026 rate hike",
+   "url": "https://www.inkl.com/news/us-stocks-slip-after-fed-officials-indicate-a-possible-rate-hike-in-2026",
+   "area": "d"
+  },
+  {
+   "headline": "European stocks open in the red as French businesses count the cost of the riots",
+   "url": "https://www.euronews.com/2026/10/19/european-stocks-open-in-the-red-as-french-businesses-count-the-cost-of-the-riots",
+   "area": "c"
+  },
+  {
+   "headline": "Prediction: Eli Lilly Stock Could Be a Long-Term Winner",
+   "url": "https://247wallst.com/investing/2026/10/19/prediction-eli-lilly-stock-could-be-a-long-term-winner-for-investors/",
+   "area": "c"
+  },
+  {
+   "headline": "European stocks slip, oil falls on Russian sanctions waiver",
+   "url": "https://www.ksat.com/business/2026/10/19/asian-shares-are-mixed-with-tech-stocks-volatile-and-oil-falls-on-trumps-russian-sanctions-waiver/",
+   "area": "c"
+  },
+  {
+   "headline": "Apple announces October 28 event",
+   "url": "https://9to5mac.com/2026/10/19/apple-announces-special-event-for-october-28",
+   "area": "b"
+  },
+  {
+   "headline": "Amazon takes its biggest shot at Nvidia yet with TorchNeuron",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool",
+   "area": "b"
+  },
+  {
+   "headline": "META falls 0.5% ahead of Q3 earnings",
+   "url": "https://www.heygotrade.com/en/news/meta-meta-stock-news-october-20-2026/",
+   "area": "b"
+  },
+  {
+   "headline": "Technology digest Oct 19: Nvidia Vera CPUs at Modal, JPMorgan upgrades Intel, Microsoft exits Nscale UK deal",
+   "url": "https://technologies.org/technology-digest-october-19-2026/",
+   "area": "a"
+  },
+  {
+   "headline": "Semi/AI morning brief: Micron strike, Anthropic-Broadcom ASIC, AMD Helios",
+   "url": "https://404kresearch.substack.com/p/404k-semi-ai-morning-brief-october-551",
+   "area": "a"
+  }
+ ]
+}
