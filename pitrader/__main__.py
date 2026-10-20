@@ -6,6 +6,7 @@
   python3 -m pitrader status           print the latest summary
   python3 -m pitrader llm-summary      daily status text from the NAS model (own timer)
   python3 -m pitrader backtest         historical backtest on Bitstamp BTC/EUR
+  python3 -m pitrader news-score       score the Haiku news diary (paper only, run by pi-sync.sh)
 """
 
 import argparse
@@ -13,7 +14,7 @@ import os
 import sys
 import time
 
-from . import backtest, config, health, llm
+from . import backtest, config, health, llm, news
 from .kraken import Kraken, MarketError
 from .sim import ConfigChanged, Simulator
 
@@ -24,7 +25,7 @@ DEFAULT_DATA = os.path.join(HERE, "data", "sim-v2")
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="pitrader")
-    ap.add_argument("command", choices=["check", "run", "once", "status", "llm-summary", "backtest"])
+    ap.add_argument("command", choices=["check", "run", "once", "status", "llm-summary", "backtest", "news-score"])
     ap.add_argument("--config", default=DEFAULT_CONFIG)
     ap.add_argument("--data-dir", default=DEFAULT_DATA)
     ap.add_argument("--llm-config", default=os.path.join(HERE, "config", "llm.json"))
@@ -44,6 +45,11 @@ def main(argv=None):
     if args.command == "llm-summary":
         out = llm.daily_summary(args.data_dir, llm.load_settings(args.llm_config))
         print(out["text"] if out["llm_ok"] else "model did not answer; facts written without text")
+        return 0
+
+    if args.command == "news-score":
+        text = news.run(os.path.join(HERE, "data", "nyheder"))
+        print(text if text else "news diary: nothing new to score")
         return 0
 
     cfg = config.load(args.config)
