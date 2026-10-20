@@ -1,0 +1,21 @@
+{
+  "run_name": "live-dry-v1",
+  "mode": "dry",
+  "market": "BTC-EUR",
+  "strategy": {"id": "faber_btc", "type": "faber", "months": 10},
+  "paper_arm": "faber_btc",
+  "cap_eur": 670,
+  "taker_fee": 0.0025,
+  "maker_fee": 0.0015,
+  "operator_id": 1001,
+  "kill": {
+    "allowed_markets": ["BTC-EUR"],
+    "max_cap_eur": 700,
+    "max_loss_frac": 0.35,
+    "max_orders_per_day": 2,
+    "max_price_dev": 0.01,
+    "max_consecutive_errors": 3,
+    "max_candle_age_s": 172800,
+    "max_disagree_s": 21600
+  }
+}

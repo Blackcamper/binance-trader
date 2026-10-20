@@ -1,0 +1,12 @@
+[Unit]
+Description=pitrader Bitvavo executor, DRY RUN (public data only, no key, no orders sent)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=pi
+WorkingDirectory=/home/pi/binance-trader
+ExecStart=/usr/bin/python3 -m pitrader live-dry
+Nice=10
+NoNewPrivileges=true

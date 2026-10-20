@@ -6,6 +6,8 @@
   python3 -m pitrader status           print the latest summary
   python3 -m pitrader llm-summary      daily status text from the NAS model (own timer)
   python3 -m pitrader backtest         historical backtest on Bitstamp BTC/EUR
+  python3 -m pitrader live-dry         one dry-run step of the Bitvavo executor (no orders sent)
+  python3 -m pitrader live-resume      clear a kill-switch halt after a human has looked
 """
 
 import argparse
@@ -13,7 +15,8 @@ import os
 import sys
 import time
 
-from . import backtest, config, health, llm
+from . import backtest, config, health, live, llm
+from .bitvavo import Bitvavo
 from .kraken import Kraken, MarketError
 from .sim import ConfigChanged, Simulator
 
@@ -24,13 +27,21 @@ DEFAULT_DATA = os.path.join(HERE, "data", "sim-v2")
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="pitrader")
-    ap.add_argument("command", choices=["check", "run", "once", "status", "llm-summary", "backtest"])
+    ap.add_argument("command", choices=["check", "run", "once", "status", "llm-summary", "backtest",
+                                       "live-dry", "live-resume"])
     ap.add_argument("--config", default=DEFAULT_CONFIG)
     ap.add_argument("--data-dir", default=DEFAULT_DATA)
     ap.add_argument("--llm-config", default=os.path.join(HERE, "config", "llm.json"))
     ap.add_argument("--runs", type=int, default=backtest.RANDOM_RUNS,
                     help="random strategies per arm in the backtest")
+    ap.add_argument("--live-config", default=os.path.join(HERE, "config", "live-dry-v1.json"))
+    ap.add_argument("--live-data-dir", default=os.path.join(HERE, "data", "live-dry-v1"))
+    ap.add_argument("--paper-status", default=os.path.join(DEFAULT_DATA, "status.json"),
+                    help="the Pi's status.json, to compare signals with the paper arm")
     args = ap.parse_args(argv)
+
+    if args.command in ("live-dry", "live-resume"):
+        return run_live(args)
 
     if args.command == "status":
         path = os.path.join(args.data_dir, "summary.txt")
@@ -79,6 +90,26 @@ def main(argv=None):
         # align to the period boundary so polls land just after candle closes
         now = time.time()
         time.sleep(wait - (now % period) + 5 if ok else wait)
+
+
+def run_live(args):
+    try:
+        cfg = live.load_config(args.live_config)
+        ex = live.Executor(cfg, args.live_data_dir, Bitvavo())
+    except live.LiveConfigError as e:
+        print("REFUSED: %s" % e, file=sys.stderr)
+        return 2
+    if args.command == "live-resume":
+        if os.path.exists(ex.stop_path):
+            print("REFUSED: remove %s first" % ex.stop_path, file=sys.stderr)
+            return 2
+        ex.resume("cli")
+        print("resumed")
+        return 0
+    st = ex.step(live.paper_arm(args.paper_status, cfg.get("paper_arm")))
+    print("%s %s target=%s eur=%.2f qty=%.8f halted=%s" % (
+        st["heartbeat_utc"], st["message"], st["target"], st["eur"], st["qty"], st["halted"]))
+    return 1 if st["halted"] else 0
 
 
 def check(cfg, market):
