@@ -1,0 +1,50 @@
+{
+ "date": "2026-10-21",
+ "written_utc": "2026-10-21T12:24Z",
+ "picks": [],
+ "no_pick_reason": "Ingen køb: Nyhederne giver ingen klar, ny fordel. Netflix' fald på ca. 6% er allerede indpriset før åbning efter guidance-miss og nedjusteret annonceomsætning. Meta og Tesla rapporterer efter lukning i dag, så udfaldet er ukendt, og et køb før regnskabet er gætteri snarere end nyhedsbaseret. SpaceX-fusionen er kun et spørgsmål om særudvalg og er ikke konkret. Varm CPI på 3,7%, mulig Fed-renteforhøjelse og en 10-årig rente på ca. 5,10% trækker mod lavere værdiansættelser for teknologi.",
+ "headlines_read": 11,
+ "note": "AI/halvledere og pharma/Europa fandt ingen nyheder fra de sidste 24 timer.",
+ "headlines": [
+  {
+   "headline": "Netflix down ~6% premarket after Q4 guidance miss",
+   "url": "https://investrade.com/morning-preview-october-21-2026/",
+   "area": "b"
+  },
+  {
+   "headline": "Meta reports Q3 after the close Oct 21",
+   "url": "https://www.fool.com/investing/2026/10/20/prediction-oct-21-will-be-a-huge-day-for-the-stock-market/",
+   "area": "b"
+  },
+  {
+   "headline": "Musk says Tesla-SpaceX combination has 'a lot of merit'",
+   "url": "https://investrade.com/morning-preview-october-21-2026/",
+   "area": "b"
+  },
+  {
+   "headline": "Tech futures rise premarket, SpaceX stock rockets overnight",
+   "url": "https://fortune.com/2026/10/21/tech-futures-rise-premarket-trading-spacex-stock-rockets-overnight-wells-fargos-buy-signal-triggered/",
+   "area": "b"
+  },
+  {
+   "headline": "US 10-year yield steady near 5.10% on inflation worries",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+   "area": "d"
+  },
+  {
+   "headline": "Earnings this week Oct 19-23",
+   "url": "https://blofin.com/academy/education/tradfi/earnings-this-week-oct-19-23-2026",
+   "area": "d"
+  },
+  {
+   "headline": "September CPI 3.7% above estimate",
+   "url": "https://www.goodreturns.in/news/us-stock-market-open-or-closed-on-monday-dow-jones-nasdaq-s-p-500-weekly-outlook-for-october-19-23-1542385.html",
+   "area": "d"
+  },
+  {
+   "headline": "Warsh: inflation uncomfortably high",
+   "url": "https://investinglive.com/central-banks/warsh-speaks-in-bangkok-after-hot-cpi-is-a-second-fed-hike-coming-in-october/",
+   "area": "d"
+  }
+ ]
+}
