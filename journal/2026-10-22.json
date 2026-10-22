@@ -1,0 +1,55 @@
+{
+ "date": "2026-10-22",
+ "written_utc": "2026-10-22T12:27Z",
+ "picks": [],
+ "no_pick_reason": "Ingen af nyhederne giver et klart købssignal inden for universet. Meta har en blandet rapport: omsætningen steg 26 %, men den frie cash flow blev negativ, og aktien vendte efter stigningen efter lukketid. Tesla slog forventningerne, men bilomsætningen faldt, og aktien faldt 4,9 % før åbning. Texas Instruments og Lam Research ligger uden for listen, og IBM's bevægelse blev ikke verificeret. Metas nye aktieklasse og Musks tanker om en SpaceX-fusion er ikke konkrete nok til en 5-dages position.",
+ "headlines_read": 9,
+ "note": "Pharma/Europa og makro fandt ingen nyheder fra de sidste 24 timer.",
+ "headlines": [
+  {
+   "headline": "Meta Q3 revenue +26% but AI capex and settlements weigh",
+   "url": "https://fortune.com/2026/10/21/meta-q3-earnings-mark-zuckerberg-capex-muse/",
+   "area": "b"
+  },
+  {
+   "headline": "Meta shares slip as legal costs weigh on strong quarter",
+   "url": "https://www.tradingpedia.com/2026/10/22/meta-shares-slip-as-legal-costs-weigh-on-strong-quarter/",
+   "area": "b"
+  },
+  {
+   "headline": "Meta announces non-voting Class C stock",
+   "url": "https://www.stocktitan.net/articles/meta-q3-2026-earnings-results",
+   "area": "b"
+  },
+  {
+   "headline": "Meta Q3 beat fades as cash flow turns negative",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262231640-meta-stock-forecast-q3-beat-class-c-shares-cash-flow-686-support-october-22-2026-tradingkey",
+   "area": "b"
+  },
+  {
+   "headline": "Tesla beats Q3 estimates as auto revenue declines",
+   "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+   "area": "b"
+  },
+  {
+   "headline": "Tesla beats estimates as Musk floats SpaceX merger",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-beats-estimates-musk-floats-204544066.html",
+   "area": "b"
+  },
+  {
+   "headline": "Tesla shares fall premarket after Q3 results",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62519510/tesla-shares-fall-premarket-q3-earnings-results",
+   "area": "b"
+  },
+  {
+   "headline": "After-hours movers: Meta, Tesla, Lam Research, IBM",
+   "url": "https://www.cnbc.com/2026/10/21/stocks-making-the-biggest-moves-after-hours-meta-tsla-lrcx-ibm.html",
+   "area": "b"
+  },
+  {
+   "headline": "Texas Instruments Q3 2026 results",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000165/q32026txnex99-eredgar.htm",
+   "area": "a"
+  }
+ ]
+}
