@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-23",
+ "written_utc": "2026-10-23T12:25Z",
+ "picks": [
+  {
+   "ticker": "AMD",
+   "confidence": 2,
+   "horizon_days": 5,
+   "reason": "Susquehanna hævede AMD's kursmål fra 550 til 620 USD efter chipaktiernes fald 22. oktober, hvilket kan tyde på et køb efter dykket, men forventningen om kun \"modest upside\" i Q3 og den blandede AI-stemning gør signalet svagt.",
+   "sources": [
+    "https://stocktwits.com/news-articles/markets/equity/amd-qcom-targets-raised-while-intc-cohr-face-cuts-susquehanna-sees-modest-upside-for-chip-earnings/cZxM53zRBvK",
+    "https://invezz.com/news/2026/10/22/nvidia-amd-and-micron-plunge-sharply-why-wall-street-is-punishing-ai-spending-either-way"
+   ]
+  }
+ ],
+ "headlines_read": 5,
+ "note": "Pharma/Europa og makro fandt ingen nyheder fra de sidste 24 timer.",
+ "headlines": [
+  {
+   "headline": "Chip stocks lose $200 billion as equipment maker's warning counters Nvidia's AI optimism",
+   "url": "https://www.techtimes.com/articles/329406/20261023/chip-stocks-lose-200-billion-equipment-makers-warning-counters-nvidias-ai-optimism.htm",
+   "area": "a"
+  },
+  {
+   "headline": "Nvidia, AMD, Micron fall sharply on AI spending worries",
+   "url": "https://invezz.com/news/2026/10/22/nvidia-amd-and-micron-plunge-sharply-why-wall-street-is-punishing-ai-spending-either-way",
+   "area": "a"
+  },
+  {
+   "headline": "Susquehanna raises AMD and QCOM targets, cuts INTC",
+   "url": "https://stocktwits.com/news-articles/markets/equity/amd-qcom-targets-raised-while-intc-cohr-face-cuts-susquehanna-sees-modest-upside-for-chip-earnings/cZxM53zRBvK",
+   "area": "a"
+  },
+  {
+   "headline": "Meta raises 2026 capex guidance to $135B-$145B",
+   "url": "https://tech-insider.org/meta-ai-capex-145b-tesla-cuts-spend-2026/",
+   "area": "b"
+  },
+  {
+   "headline": "Tesla Q3 2026 financial results",
+   "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/",
+   "area": "b"
+  }
+ ]
+}
