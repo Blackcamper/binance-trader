@@ -1,0 +1,80 @@
+{
+ "date": "2026-10-26",
+ "written_utc": "2026-10-26T13:34Z",
+ "picks": [],
+ "no_pick_reason": "Ingen af nyhederne giver en ny købsgrund, som ikke allerede er prisfastsat. ASML's tilbagekøb er rutine, Novo har ingen selskabsnyhed, og Metas kapitalrejsning på op til 95 mia. USD er udvanding med stigende kreditrisiko. Lilly, Microsoft, Alphabet og Amazon rapporterer senere på ugen, så et køb før regnskabet er et retningsgæt. Energi har allerede været stærkest, og FOMC (27.-28. okt.) med en 10-årig rente på ca. 5 % giver makrorisiko.",
+ "headlines_read": 19,
+ "note": "Kørslen startede 13:32 UTC (efter planlagt tid). To AI/halvleder-nyheder om chipfaldet 22. okt. kom først efter dommerens afgørelse og indgik ikke.",
+ "headlines": [
+  {
+   "headline": "ASML reports transactions under its share buyback program",
+   "url": "https://www.globenewswire.com/news-release/2026/10/26/3388154/0/en/asml-reports-transactions-under-its-current-share-buyback-program.html",
+   "area": "c"
+  },
+  {
+   "headline": "Eli Lilly Q3 catalysts on Oct 29",
+   "url": "https://247wallst.com/investing/2026/10/25/3-massive-catalysts-that-could-ignite-an-eli-lilly-stock-rally-on-oct-29/",
+   "area": "c"
+  },
+  {
+   "headline": "European pre-market: healthcare updates (Bayer, Novartis, AstraZeneca)",
+   "url": "https://www.newsquawk.com/headlines/european-pre-market-summary---26th-october-2026-european-bourses-set-for-a-slightly-firmer-open-stock-stories-focused-on-a-slew-of-healthcare-updates",
+   "area": "c"
+  },
+  {
+   "headline": "Novo Nordisk weekend trading, no company news",
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/novo-nordisk-stock-trades-at-eur-35-07-in-weekend-trading/70403597",
+   "area": "c"
+  },
+  {
+   "headline": "Meta seeks up to $95B in equity for AI infrastructure",
+   "url": "https://ifttt.itbehere.com/2026/10/26/futures-rise-as-meta-jumps-on-95bn-equity-raise-oil-slides-brazil-crashes-after-lula-shock/",
+   "area": "b"
+  },
+  {
+   "headline": "Musk's warning hits neocloud stocks",
+   "url": "https://www.bnnbloomberg.ca/business/technology/2026/10/26/musks-warning-hits-neocloud-stocks-as-debt-concerns-mount/",
+   "area": "b"
+  },
+  {
+   "headline": "Big tech earnings this week",
+   "url": "https://sentisense.ai/blog/big-tech-earnings-this-week/",
+   "area": "b"
+  },
+  {
+   "headline": "Earnings this week Oct 26-31",
+   "url": "https://www.tipranks.com/news/earnings-this-week-october-26-31-2026",
+   "area": "b"
+  },
+  {
+   "headline": "Stock market today Oct 26: Verizon AWS deal",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-26-2026",
+   "area": "b"
+  },
+  {
+   "headline": "US stock market this week: oil, Fed, Meta, telecoms",
+   "url": "https://www.tradingkey.com/tools/market-update/us-stock-market-this-week-20261026",
+   "area": "d"
+  },
+  {
+   "headline": "10-year Treasury yield drops back to 5%",
+   "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+   "area": "d"
+  },
+  {
+   "headline": "Earnings calendar week of October 26",
+   "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026",
+   "area": "d"
+  },
+  {
+   "headline": "Nasdaq posts worst day since June on AI funding worries",
+   "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-nasdaq-posts-worst-day-since-june-4967865",
+   "area": "a"
+  },
+  {
+   "headline": "Gotrade Daily: AmEx and SLB report after the AI selloff",
+   "url": "https://www.heygotrade.com/en/news/amex-and-slb-report-after-the-ai-selloff/",
+   "area": "a"
+  }
+ ]
+}
