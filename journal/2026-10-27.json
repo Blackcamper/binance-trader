@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-27",
+ "written_utc": "2026-10-27T13:42Z",
+ "picks": [],
+ "no_pick_reason": "Ingen af nyhederne giver en ny fordel, der ikke allerede er prisat ind, for de næste 5 handelsdage. Anthropics S-1 og halvlederrallyet skete 26. oktober og er allerede i kurserne. Teslas stigning bygger på et ubekræftet SpaceX-fusionsrygte. MSFT steg før regnskabet 28. oktober uden konkret nyhed. Lillys kursmålsopjustering og udbytte er små justeringer, og regnskabet 29. oktober gør retningen usikker. FOMC 28. oktober øger usikkerheden.",
+ "headlines_read": 7,
+ "note": "Makro fandt ingen nyheder fra de sidste 24 timer.",
+ "headlines": [
+  {
+   "headline": "SOX gains nearly 3% after Anthropic files S-1",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262240365-us-stock-close-nasdaq-anthropic-ipo-s1-semiconductor-ai-tradingkey",
+   "area": "a"
+  },
+  {
+   "headline": "Tower Semiconductor and Semtech expand AI capacity deal",
+   "url": "https://www.timothysykes.com/news/tower-semiconductor-ltd-tsem-news-2026_10_26/",
+   "area": "a"
+  },
+  {
+   "headline": "Tesla rises 5.2% on SpaceX merger views",
+   "url": "https://www.heygotrade.com/en/news/tesla-tsla-stock-news-october-27-2026/",
+   "area": "b"
+  },
+  {
+   "headline": "Stock market today Oct 26: AI optimism lifts Nasdaq",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/10/26/stock-market-today-oct-26-ai-optimism-lifts-nasdaq-as-tech-stocks-rebound/",
+   "area": "b"
+  },
+  {
+   "headline": "Bernstein raises Eli Lilly target to $1,450",
+   "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/eli-lilly-and-co-stock-bernstein-lifts-usd-1-450-target-slightly-higher-pre-market/70417835",
+   "area": "c"
+  },
+  {
+   "headline": "Lilly declares fourth-quarter 2026 dividend",
+   "url": "https://www.prnewswire.com/news-releases/lilly-declares-fourth-quarter-2026-dividend-302919496.html",
+   "area": "c"
+  },
+  {
+   "headline": "Eli Lilly presents ovarian cancer data",
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/eli-lilly-presents-cancer-data-eli-lilly-stock-trades-2-68-percent-below-its-high/70414029",
+   "area": "c"
+  }
+ ]
+}
