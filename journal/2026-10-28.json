@@ -1,0 +1,88 @@
+{
+ "date": "2026-10-28",
+ "written_utc": "2026-10-28T13:40Z",
+ "picks": [
+  {
+   "ticker": "MU",
+   "confidence": 3,
+   "horizon_days": 5,
+   "reason": "SK Hynix' Q3-driftsresultat steg 632 % år over år, kinesiske skyudbydere søger 3-5-årige hukommelsesaftaler, og Micron steg ca. 2 % før åbning, hvilket tyder på stram hukommelsesforsyning; Fed-beslutningen og Microsoft/Alphabet-regnskaberne giver dog høj risiko.",
+   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-080642111.html"
+   ]
+  }
+ ],
+ "headlines_read": 21,
+ "headlines": [
+  {
+   "headline": "Chip stocks rise as SOX gains more than 2%; AMD to invest $1B in Meta offering; TSMC CoWoS price hike; Chinese clouds seek memory deals",
+   "url": "https://panews.io/articles/01a1803c-57b0-73c9-a1e2-eaa930da3925",
+   "area": "a"
+  },
+  {
+   "headline": "SpaceX secures $40 billion in the largest GPU financing ever",
+   "url": "https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever",
+   "area": "a"
+  },
+  {
+   "headline": "Broadcom lines up $63B SPV to lease AI chips to Anthropic",
+   "url": "https://aiweekly.co/alerts/broadcom-lines-up-63b-bank-and-blackstone-spv-to-lease-ai-chips-to-anthropic",
+   "area": "a"
+  },
+  {
+   "headline": "Nvidia rises 2.4%; Nvidia, AMD, Broadcom indicated in Meta offering",
+   "url": "https://www.heygotrade.com/en/news/nvidia-nvda-stock-news-october-27-2026/",
+   "area": "a"
+  },
+  {
+   "headline": "TSMC Q3 revenue up 41%; AI chip stocks may be just getting started",
+   "url": "https://247wallst.com/investing/2026/10/27/these-ai-chip-stocks-may-be-just-getting-started/",
+   "area": "a"
+  },
+  {
+   "headline": "Visa fiscal Q4 2026 earnings release",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000126/q42026earningsrelease.htm",
+   "area": "b"
+  },
+  {
+   "headline": "Novo Nordisk loses court ruling over Eli Lilly obesity drug ads",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/novo-nordisk-loses-court-ruling-over-eli-lilly-obesity-drug-ads",
+   "area": "c"
+  },
+  {
+   "headline": "Closing look Oct 27: BESI jumps on Applied Materials stake",
+   "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-27-2026",
+   "area": "c"
+  },
+  {
+   "headline": "ASML earnings boost tech stocks (date unverified)",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4600JC:0-asml-earnings-boost-tech-stocks-lift-european-shares/",
+   "area": "c"
+  },
+  {
+   "headline": "Fed meeting updates October 2026",
+   "url": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-october-2026",
+   "area": "d"
+  },
+  {
+   "headline": "Stock market today Oct 28: Fed decision, SK Hynix, Microsoft/Alphabet earnings, Robinhood",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-080642111.html",
+   "area": "d"
+  },
+  {
+   "headline": "Stock market today Oct 27: Nasdaq up on chip rally",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html",
+   "area": "d"
+  },
+  {
+   "headline": "Earnings reports Oct 27 evening: Visa beat, weaker outlook",
+   "url": "https://www.everhint.com/earnings-reports-october-27-2026-evening-update-last-12-hours-pacific-time/",
+   "area": "d"
+  },
+  {
+   "headline": "NXP shares fall nearly 9% after Q3",
+   "url": "https://www.gurufocus.com/news/9145613/nxp-semiconductors-nxpi-shares-fall-nearly-9-after-solid-q3-earnings-report",
+   "area": "d"
+  }
+ ]
+}
