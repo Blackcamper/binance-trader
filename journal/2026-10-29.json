@@ -1,0 +1,109 @@
+{
+ "date": "2026-10-29",
+ "written_utc": "2026-10-29T13:38Z",
+ "picks": [
+  {
+   "ticker": "LLY",
+   "confidence": 3,
+   "horizon_days": 5,
+   "reason": "Lilly rapporterede Q3 med en omsætning på 24,4 mia. USD (+39 %) og hævede omsætningsguidningen til 91-92 mia. USD, mens EPS-guidningen blev sænket til 35,00-36,00 på grund af 4,57 USD pr. aktie i engangsomkostninger til erhvervet IPR&D, og da rapporten ikke er tidsstemplet, kan markedets reaktion være delvist indregnet.",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm"
+   ]
+  }
+ ],
+ "no_pick_reason": "",
+ "headlines_read": 18,
+ "headlines": [
+  {
+   "headline": "AMD rises 5.45% after expanded Meta partnership; Helios rack-scale systems in Meta testing",
+   "url": "https://247wallst.com/investing/2026/10/28/amd-jumped-5-and-is-closing-in-on-1-trillion-again/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "SK Hynix record quarterly profit and more than $25B in dividends and buybacks lift Nvidia, Micron and AMD",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/micron-amd-nvidia-stocks-rise-183814387.html",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Nvidia to invest $3B in Meta's equity offering; Vera Rubin systems generally available on Oracle Cloud",
+   "url": "https://heygotrade.com/en/news/nvidia-nvda-stock-news-october-28-2026",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Broadcom tied to $63B AI financing vehicle that buys its accelerators and leases them to Anthropic",
+   "url": "https://www.tradingview.com/news/gurufocus:e1e46cfca094b:0-broadcom-stocks-rise-with-anthropic-financing-linking-sales-and-asset-risk/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "STMicroelectronics reports Q3 2026 revenue of $3.76B (+17.9% YoY) and guides Q4 to about $4.15B",
+   "url": "https://www.globenewswire.com/news-release/2026/10/29/3390920/0/en/stmicroelectronics-reports-q3-2026-financial-results.html",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+   "url": "https://cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Alphabet earnings preview: Google Cloud growth, capex and free cash flow in focus before Q3 report",
+   "url": "https://247wallst.com/investing/2026/10/28/alphabet-is-only-up-3-this-year-will-todays-earnings-report-make-or-break-googl-stock",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Busiest week of earnings season: Alphabet and Microsoft report Wednesday, Amazon Thursday; Meta earnings missed",
+   "url": "https://www.forbes.com/sites/bill_stone/2026/10/25/alphabet-microsoft-and-amazon-lead-busiest-week-of-earnings-season/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Amazon Q3 earnings Thursday after the close: consensus EPS $1.96, revenue $202.16B",
+   "url": "https://sentisense.ai/blog/big-tech-earnings-this-week/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Tesla stock rises 5.2% to $391.62 on Oct 26 as Tesla-SpaceX merger review and analyst revisions lift shares",
+   "url": "https://www.heygotrade.com/en/news/tesla-tsla-stock-news-october-27-2026/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Coinbase reports Q3 after the close Thursday: consensus EPS -$0.23",
+   "url": "https://sentisense.ai/blog/big-tech-earnings-this-week/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Apple and Nvidia earnings dates expected in November, not yet confirmed",
+   "url": "https://sentisense.ai/blog/big-tech-earnings-this-week/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Meta and Tesla already reported Oct 21 as big tech earnings week begins",
+   "url": "https://sentisense.ai/blog/big-tech-earnings-this-week/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Eli Lilly reports Q3 2026 results: revenue $24.4B (+39%) and raises full-year revenue guidance to $91-92B",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Fed holds rates at 3.75%-4.00% in 10-2 vote; Cook and Hammack dissent for a hike",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+   "area": "makro"
+  },
+  {
+   "headline": "Fed holds rates as expected; statement shifts from 'raise' to 'maintain' and growth is upgraded to 'strong'",
+   "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Bank of Canada raises policy rate 25bp to 2.5% on higher inflation outlook",
+   "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Newsquawk preview: Coca-Cola, Boeing and Visa among 27 Oct US earnings",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-earnings-estimates---27th-october-2026-ko-glw-spgi-ba-stx-v",
+   "area": "makro"
+  }
+ ]
+}
