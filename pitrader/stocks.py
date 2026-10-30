@@ -391,7 +391,10 @@ def after_tax(s, candles, fx, cfg, first, tgt=None):
 def load_all(cfg, cache_dir, opener, now):
     """{ticker: (candles, fx list, fx_early)}, plus problems."""
     problems = []
-    fx_rows, _src, err = load_rows(FX, cache_dir, opener, now)
+    try:
+        fx_rows, _src, err = load_rows(FX, cache_dir, opener, now)
+    except DataError as e:
+        return {}, [str(e)]           # nothing can be valued in DKK without the rate
     if err:
         problems.append("%s: %s" % (FX, err))
     data = {}

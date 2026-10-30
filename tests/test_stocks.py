@@ -208,6 +208,14 @@ class TestStockRun(unittest.TestCase):
         st = self.live(utc(2026, 11, 20, 23))
         self.assertEqual(st["replay_mismatches"], ["bh_spy 2026-11-10 sell"])
 
+    def test_no_data_still_writes_status(self):
+        def down(req, timeout=None):
+            raise OSError("network down")
+        st = stocks.live(self.cfg, os.path.join(self.tmp, "run"), os.path.join(self.tmp, "c"),
+                         down, now=utc(2026, 11, 5, 22))
+        self.assertEqual(st["strategies"], [])
+        self.assertIn("network down", st["problems"][0])
+
     def test_config_is_locked(self):
         self.live(utc(2026, 11, 3, 22))
         self.cfg["fee_rate"] = 0.001
