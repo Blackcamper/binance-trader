@@ -1,0 +1,59 @@
+{
+ "date": "2026-10-30",
+ "written_utc": "2026-10-30T13:54Z",
+ "picks": [],
+ "no_pick_reason": "Ingen køb i dag, fordi de store nyheder allerede er priset ind: Intel-chokket og chipfaldet ramte kursen i premarket 30. oktober, Microsoft- og Alphabet-reaktionerne stammer fra efter-hours-handlen 28. oktober, og Amazon- og Lilly-resultaterne kunne ikke verificeres, mens Exxons resultattidspunkt er uklart.",
+ "headlines_read": 10,
+ "headlines": [
+  {
+   "headline": "Intel shares plunge about 25% on Q4 guidance miss and PC market warning; Dell, AMD and Nvidia also fall",
+   "url": "https://247wallst.com/investing/2026/10/30/intel-plunges-25-as-weak-outlook-and-pc-slump-overshadow-earnings-beat-dell-tumbles-13-amd-sinks-10-nvidia-falls-3/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "AMD shares fall 6.5% premarket after Intel's disappointing outlook raises PC and semiconductor demand concerns",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/amd-shares-fall-6-5-102611265.html",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Chip stocks slide premarket on Intel warning, Amazon results and hyperscaler capex concerns",
+   "url": "https://www.tipranks.com/news/why-are-chip-stocks-amd-nvda-and-avgo-falling-in-premarket-trading-today-oct-30",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Microsoft Azure revenue up 48% to $33.17B; capex hits $39.37B and 2026 capex outlook raised to about $175B",
+   "url": "https://www.xtb.com/en/market-analysis/microsoft-results-cloud-growth-overshadows-capex-questions",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Alphabet Q3 revenue $127.6B and Google Cloud up 103% to $30.7B, but EPS of $2.12 misses and shares fall about 8% after hours",
+   "url": "https://www.xtb.com/en/market-analysis/alphabet-disappoints-wall-street-despite-record-results-shares-plunge-over-8-and-test-300",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Amazon Q3 2026 earnings preview: report due after the close Oct 29, consensus EPS $2.01, revenue $202.1B, AWS $45.4B",
+   "url": "https://www.heygotrade.com/en/news/amazon-amzn-stock-news-october-28-2026/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Eli Lilly scheduled to report Q3 2026 financial results on October 29, 2026 (results content not retrieved)",
+   "url": "https://lilly.gcs-web.com/node/55096",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Fed holds rates at 3.75%-4.00% in 10-2 vote; Cook and Hammack dissent for a hike",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/fomc-october-2026-fed-holds-rates",
+   "area": "makro"
+  },
+  {
+   "headline": "Warsh press conference: Fed stays on hold; 10-year yield rises to about 5.04%, stocks muted",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/warsh-press-conference-october-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "ExxonMobil to hold 3Q 2026 earnings call on Friday, October 30",
+   "url": "https://investor.exxonmobil.com/news-events/ir-calendar/detail/20261030-3q-2026-earnings-call",
+   "area": "makro"
+  }
+ ]
+}
