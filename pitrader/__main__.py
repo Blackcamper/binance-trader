@@ -6,6 +6,9 @@
   python3 -m pitrader status           print the latest summary
   python3 -m pitrader llm-summary      daily status text from the NAS model (own timer)
   python3 -m pitrader backtest         historical backtest on Bitstamp BTC/EUR
+  python3 -m pitrader stocks           one pass of the US stocks paper run (hourly timer);
+                                       also the stocks backtest when it is a week old
+  python3 -m pitrader stocks-backtest  historical backtest of the stock arms now
 """
 
 import argparse
@@ -13,20 +16,26 @@ import os
 import sys
 import time
 
-from . import backtest, config, health, llm
+from . import backtest, config, health, llm, stocks
 from .kraken import Kraken, MarketError
 from .sim import ConfigChanged, Simulator
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_CONFIG = os.path.join(HERE, "config", "sim-v2.json")
 DEFAULT_DATA = os.path.join(HERE, "data", "sim-v2")
+STOCKS_CONFIG = os.path.join(HERE, "config", "stocks-v1.json")
+STOCKS_DATA = os.path.join(HERE, "data", "stocks-v1")
+STOCKS_CACHE = os.path.join(HERE, "data", "stockhist")
 
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="pitrader")
-    ap.add_argument("command", choices=["check", "run", "once", "status", "llm-summary", "backtest"])
+    ap.add_argument("command", choices=["check", "run", "once", "status", "llm-summary", "backtest",
+                                        "stocks", "stocks-backtest"])
     ap.add_argument("--config", default=DEFAULT_CONFIG)
     ap.add_argument("--data-dir", default=DEFAULT_DATA)
+    ap.add_argument("--stocks-config", default=STOCKS_CONFIG)
+    ap.add_argument("--stocks-data", default=STOCKS_DATA)
     ap.add_argument("--llm-config", default=os.path.join(HERE, "config", "llm.json"))
     ap.add_argument("--runs", type=int, default=backtest.RANDOM_RUNS,
                     help="random strategies per arm in the backtest")
@@ -45,6 +54,9 @@ def main(argv=None):
         out = llm.daily_summary(args.data_dir, llm.load_settings(args.llm_config))
         print(out["text"] if out["llm_ok"] else "model did not answer; facts written without text")
         return 0
+
+    if args.command in ("stocks", "stocks-backtest"):
+        return run_stocks(args)
 
     cfg = config.load(args.config)
     if args.command == "backtest":
@@ -79,6 +91,24 @@ def main(argv=None):
         # align to the period boundary so polls land just after candle closes
         now = time.time()
         time.sleep(wait - (now % period) + 5 if ok else wait)
+
+
+def run_stocks(args):
+    cfg = stocks.load_config(args.stocks_config)
+    out = os.path.join(args.stocks_data, "backtest")
+    if args.command == "stocks":
+        try:
+            st = stocks.live(cfg, args.stocks_data, STOCKS_CACHE)
+        except stocks.ConfigChanged as e:
+            print("REFUSED: %s" % e, file=sys.stderr)
+            return 2
+        sys.stdout.write(stocks.summary_text(st))
+        if not stocks.backtest_due(out, cfg.get("backtest_every_days", 7)):
+            return 0
+    _, report = stocks.run_backtest(cfg, STOCKS_CACHE, out, runs=args.runs)
+    if args.command == "stocks-backtest":
+        sys.stdout.write(report)
+    return 0
 
 
 def check(cfg, market):
