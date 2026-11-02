@@ -1,0 +1,94 @@
+{
+ "date": "2026-11-02",
+ "written_utc": "2026-11-02T13:32Z",
+ "picks": [],
+ "no_pick_reason": "Ingen køb: nyhederne er enten allerede prissat (Alphabet, Microsoft, Amazon, Meta og Intel-selloffen fra 21.-30. oktober), eller også er de kommende katalysatorer med ukendt udfald i vores 5-dages vindue (Apple og Shopify rapporterer 2.-3. nov., NVIDIA 17.-18. nov., Novo ObesityWeek 14.-17. nov), og makrobilledet med en hawkish Fed og Brent over 113 USD trækker i modsat retning.",
+ "headlines_read": 17,
+ "headlines": [
+  {
+   "headline": "Prediction: Nvidia Stock Is Going to Soar After Nov. 17",
+   "url": "https://www.fool.com/investing/2026/11/01/prediction-nvidia-stock-is-going-to-soar-after-dat/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Prediction: Nvidia Will Have an Incredible November Thanks to 1 Event",
+   "url": "https://www.fool.com/investing/2026/11/02/prediction-nvidia-will-have-an-incredible-november/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Alphabet Q3 2026: revenue $127.6B (+25%), Google Cloud $30.7B (+103%), 2027 capex to top $300B",
+   "url": "https://aiweekly.co/alerts/alphabet-posts-1276b-q3-with-google-cloud-up-103-to-307b-as-2027-capex-set-to",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Microsoft FQ1 2027: revenue $92.3B (+19%), Azure +48%, diluted EPS $4.92 GAAP",
+   "url": "https://letsdatascience.com/news/microsoft-reports-19-revenue-growth-and-48-azure-growth-in-q-bd5ee9a7",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Amazon Q3 2026: net sales $201.9B (+12%), AWS $46.0B (+39%), operating income $28.1B",
+   "url": "https://aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Meta Q3 2026: revenue up 26% to $64.60B; shares fell 7% the next day on higher expense outlook",
+   "url": "https://news.ifyouspent.com/en/news/big-tech-earnings-what-to-watch-october-2026",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Shopify to report Q3 2026 results before market open Tuesday, Nov. 3, with 8:30 a.m. ET call",
+   "url": "https://www.quiverquant.com/news/Shopify+to+Announce+Third-Quarter+2026+Financial+Results+on+November+3%2C+2026",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Apple to report fiscal Q4 2026 results Monday, Nov. 2, at 2:00 p.m. PT",
+   "url": "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Novo Nordisk stock enters November with obesity data catalyst",
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/novo-nordisk-stock-enters-november-with-obesity-data-catalyst/70438435",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Novo Nordisk Trades at 10 Times Earnings While Buying Back Billions in Stock. Is This the Bottom?",
+   "url": "https://www.fool.com/investing/2026/11/01/novo-nordisk-trades-at-10-times-earnings-while-buy/",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Fed holds rates at 3.75%-4.00% in 10-2 vote; Cook and Hammack dissent for a hike",
+   "url": "https://www.nationthailand.com/news/world/40072859",
+   "area": "makro"
+  },
+  {
+   "headline": "Tech selloff: Intel down about 28%, Amazon and Alphabet weigh; Nasdaq falls sharply on Oct 30",
+   "url": "https://www.itv.com/news/2026-10-30/the-sell-off-for-tech-stocks-worsens-and-drowns-out-strength-elsewhere-on-wall-street",
+   "area": "makro"
+  },
+  {
+   "headline": "Brent rises 2.4% to $113.45 as Iran-war supply concerns keep oil near top of range",
+   "url": "https://www.itv.com/news/2026-10-30/the-sell-off-for-tech-stocks-worsens-and-drowns-out-strength-elsewhere-on-wall-street",
+   "area": "makro"
+  },
+  {
+   "headline": "October jobs report due Friday Nov 6 at 8:30 ET; September showed +29K payrolls and 4.2% unemployment",
+   "url": "https://thriveinmarkets.com/calendar/dates/nfp-2026/",
+   "area": "makro"
+  },
+  {
+   "headline": "ISM Manufacturing PMI for October due Monday Nov 2 at 10:00 ET; consensus 54.7, prices paid 77.2",
+   "url": "https://thriveinmarkets.com/fr/calendar/indicator/pmi/",
+   "area": "makro"
+  },
+  {
+   "headline": "Week-ahead for Oct 26-30: Fed decision Wed, Q3 GDP and Core PCE Thu, Visa and Boeing and Coca-Cola reported Tue, Mastercard and Exxon and Chevron reported late in the week",
+   "url": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-10-26/",
+   "area": "makro"
+  },
+  {
+   "headline": "Earnings this week (Nov 2-6): AAPL, PLTR and about 135 others; Disney, Walmart and Costco not on this list",
+   "url": "https://pro.thestreet.com/earnings/week/2026-11-02",
+   "area": "makro"
+  }
+ ]
+}
