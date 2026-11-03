@@ -1,0 +1,84 @@
+{
+ "date": "2026-11-03",
+ "written_utc": "2026-11-03T13:23Z",
+ "picks": [],
+ "no_pick_reason": "Ingen aktie fra listen har en ny nyhed, der ikke allerede er prissat: AMD og NVO har planlagte regnskaber med ukendt udfald, Apple-nyheden blev handlet efter børsens lukning og er sandsynligvis indregnet, og Shopify-regnskabet fra i morges mangler både konsensus og en bekræftet kursreaktion, så der er ingen grundlag for at vurdere, om det er en overraskelse.",
+ "headlines_read": 15,
+ "headlines": [
+  {
+   "headline": "AMD to report fiscal Q3 2026 results after the market close today, Nov. 3; call at 5 p.m. ET",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Apple stock drops nearly 3% after hours following Q4 2026 results",
+   "url": "https://9to5mac.com/2026/11/02/apple-stock-drops-nearly-3-after-hours-following-q4-2026-results/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Palantir's revenue rises 96% to $2.3 billion as investors' patience rests on a hair trigger",
+   "url": "https://fortune.com/2026/11/02/palantir-q3-results-stock-ai-trade-selloff/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Shopify reports Q3 2026 results: revenue up 32% to $3.74B, GMV up 29% to $119.1B",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001594805/000159480526000067/exhibit991pressreleaseq320.htm",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Netcompany Group A/S: major shareholder announcement (Handelsbanken Fonder AB holds 5.13% of voting rights)",
+   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393028/0/en/major-shareholder-announcement.html",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Novo Nordisk to announce first nine months 2026 results on 4 November 2026",
+   "url": "https://www.novonordisk.com/investors/financial-results.html",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Stocktwits Pharma Pulse: biotech beats the broader market; Novo, Pfizer and Moderna earnings up next",
+   "url": "https://www.heygotrade.com/en/us-stock/nvo/",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Novo Nordisk trades at 10 times earnings while buying back billions in stock: is this the bottom?",
+   "url": "https://www.heygotrade.com/en/us-stock/nvo/",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Eli Lilly Q3 2026 results: 8-K sales and earnings release",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/lly-20261029.htm",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Fed holds rates at 3.75%-4.00% in 10-2 vote; Hammack and Cook dissent for a hike",
+   "url": "https://stockanalysis.com/news/fed-holds-rates-steady-oct-2026/",
+   "area": "makro"
+  },
+  {
+   "headline": "Treasury Yields Extend Past Month's Slide as Oil Prices Tumble",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-02/treasury-yields-extend-past-month-s-slide-as-oil-prices-tumble",
+   "area": "makro"
+  },
+  {
+   "headline": "Dow futures drop 300 points on Election Day as Apple declines, oil rises: live updates",
+   "url": "https://cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Dollar Index slips 3 sessions as yields drop after Fed hold",
+   "url": "https://www.vantagemarkets.com/market-analysis/why-dollar-index-fell-treasury-yields-usdx-analysis-november-2-6-2026/",
+   "area": "makro"
+  },
+  {
+   "headline": "Walt Disney Company sets fiscal Q4/full-year 2026 earnings webcast for Tuesday, November 17 at 8:30am ET",
+   "url": "https://blogmickey.com/2026/10/disney-sets-date-for-full-fiscal-2026-earnings-report/",
+   "area": "makro"
+  },
+  {
+   "headline": "US ISM Manufacturing PMI scheduled Monday 2 November 2026 (10:00 ET)",
+   "url": "https://thriveinmarkets.com/fr/calendar/indicator/pmi/",
+   "area": "makro"
+  }
+ ]
+}
