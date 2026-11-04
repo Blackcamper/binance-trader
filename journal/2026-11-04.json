@@ -1,0 +1,70 @@
+{
+ "date": "2026-11-04",
+ "written_utc": "2026-11-04T13:24Z",
+ "picks": [],
+ "no_pick_reason": "Ingen køb i dag: AMD's beat-and-raise er den eneste friske kursdrivende nyhed, men tallene står kun i et Substack-indlæg, earnings-watcher kunne ikke bekræfte resultaterne, og den efterhandelske kursbevægelse (op til 530 USD, lukkede ca. 512 USD) er allerede kendt før åbningen. NVO's Q3-regnskab er offentliggjort og indregnet før den amerikanske åbning, QCOM rapporterer først efter lukning med ukendt udfald, og Apple og olie styres af overskrifter der allerede er priset ind eller er for svingende til en retningsbestemt handel.",
+ "headlines_read": 12,
+ "note": "Big tech-agenten fandt ingen nyheder i dag.",
+ "headlines": [
+  {
+   "headline": "Qualcomm reports fiscal Q4 and fiscal 2026 results after the close today; call at 1:45 p.m. PT",
+   "url": "https://investingnews.com/qualcomm-schedules-fourth-quarter-and-fiscal-2026-earnings-release-and-conference-call/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "AMD scheduled to report Q3 2026 results after market close on Nov. 3, 2026",
+   "url": "https://earnings-watcher.com/wiki/amd-earnings-november-2026",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Novo Nordisk A/S Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026",
+   "url": "https://www.marketscreener.com/news/novo-nordisk-a-s-reports-earnings-results-for-the-third-quarter-and-nine-months-ended-september-30-ce785fdfd889f022",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Novo Nordisk: Forventninger til Q3 2026-regnskabet (Q3 2026 results preview)",
+   "url": "https://proinvestor.com/nyheder/novo-nordisk-forventninger-til-q3-2026-regnskabet",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Stocks mixed on Nov. 3 as Nasdaq rises 0.83% and Dow slips 0.38%; Apple, Palantir and Shopify move on earnings",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "AP market close Nov. 3: S&P 500 up 0.4% to 7,568.92, Nasdaq up 0.8%, Dow down 0.4% to 51,786.72; 10-year yield rises to 4.96% after job openings beat forecasts",
+   "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/03/us-stocks-drift-in-mixed-early-trading-on-wall-street-as-apple-falls",
+   "area": "makro"
+  },
+  {
+   "headline": "Midterm results: Democrats projected to win Senate and House, NYT model gave Democrats 93% House and 71% Senate odds; Nasdaq futures dipped about 1%",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "Stocks fall Nov. 2 as Brent drops 7.5% to $104.96 and WTI 7.2% to $96.62 on signs of Iran openness to peace talks; Exxon falls 4.1%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-3-132100899.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Oil rebounds Tuesday: WTI up 2.1% to $98.51 and Brent up 1.7% to $106.50 after reports of a US strike on Iran's Qeshm Island",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "AMD jumps after hours on record $13.4B revenue (up 45%), data center revenue nearly doubles to $8.5B, and Q4 guide of about $17B tops estimates",
+   "url": "https://thebullsheet00.substack.com/p/amd-ripped-after-hours-survive-the-open",
+   "area": "makro"
+  },
+  {
+   "headline": "Apple falls after weaker margin forecast from higher memory chip costs tied to AI data center demand, and weaker iPad sales",
+   "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/03/us-stocks-drift-in-mixed-early-trading-on-wall-street-as-apple-falls",
+   "area": "makro"
+  },
+  {
+   "headline": "ISM Manufacturing rises to 55.5 in October from 54.5 in September; construction spending falls 1.9% in September",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-3-132100899.html",
+   "area": "makro"
+  }
+ ]
+}
