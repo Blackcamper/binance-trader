@@ -1,0 +1,104 @@
+{
+ "date": "2026-11-05",
+ "written_utc": "2026-11-05T13:25Z",
+ "picks": [],
+ "no_pick_reason": "Ingen af nyhederne er både nye, verificerede og endnu ikke prissat: Uber og Palantir er allerede reageret på, Lilly og Novo er ældre eller uden verificerede tal, Qualcomm-posterne er gamle eller ikke bekræftet, og oliefaldet er en makrobevægelse uden en klar aktieidé.",
+ "headlines_read": 19,
+ "headlines": [
+  {
+   "headline": "Qualcomm faces weak Q4 earnings guidance amid industry downward pressure",
+   "url": "https://app.sentisense.ai/stories/qualcomm-faces-weak-q4-earnings-guidance-amid-industry-downward-pressure-07292026",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Qualcomm (NASDAQ:QCOM) issues Q4 2026 earnings guidance",
+   "url": "https://www.marketbeat.com/instant-alerts/qualcomm-nasdaqqcom-issues-q4-2026-earnings-guidance-2026-07-29/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Rising memory costs are hurting smartphones, Qualcomm warns",
+   "url": "https://www.webull.com/news/15315809136616448",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Broadcom slides 5% on chip sector sell-off despite new 2nm AI SoC launch",
+   "url": "https://rallies.ai/news/broadcom-slides-5-on-chip-sector-sell-off-despite-new-2nm-ai-soc-launch",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "TSMC warns Nvidia and Broadcom of capacity squeeze as AI chip demand surges",
+   "url": "https://www.computing.co.uk/news/2026/tsmc-warns-nvidia-and-broadcom-of-capacity-squeeze-as-ai-chip-demand-surges",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Qualcomm Q3 EPS tops estimates by $0.13; revenue up 10% to $11.27B, guides Q1 EPS to $3.30-$3.50",
+   "url": "https://rallies.ai/news/qualcomm-q3-eps-tops-estimates-by-013-revenue-up-10-to-1127b-guides-q1-eps-to-330-350",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Apple reportedly beats fiscal Q4 estimates but sees shares fall afterward",
+   "url": "https://digg.com/world-business/iyfp5u0e",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Palantir Q3 2026 revenue of $2.313B beats $2.183B estimate, adjusted EPS $0.44 vs $0.41, full-year revenue guidance $8.53B vs $8.205B expected",
+   "url": "https://247wallst.com/investing/2026/11/02/live-will-palantir-smash-q3-earnings-tonight-after-the-bell/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Eli Lilly beats Q3 2026 forecasts and raises 2026 revenue outlook to $91-92B",
+   "url": "https://www.zacks.com/stock/news/3018734/lly-stock-jumps-as-q3-earnings-beat-estimates-2026-sales-view-raised",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Novo Nordisk 9M 2026 results scheduled for Nov 4; shares rose 2.7% the prior Friday; US judge refused Novo bid to halt Lilly weight-loss ads",
+   "url": "https://www.boerse-express.com/news/articles/novo-nordisk-aktie-lilly-legt-die-latte-hoeher-958056",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "European close Nov 2 (market news stream): ASML +1.2%, SAP -0.8%, AstraZeneca -1.4%, Novartis -1.8%",
+   "url": "https://tradingeconomics.com/euro-area/stock-market/news/573868",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Dow jumps 3.03% to 53,356.12 on Nov 4 as Democrats win Congress; S&P 500 up 1.58% to 7,688.62, Nasdaq up 1.44% to 25,736.51",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "US crude settled at $88.12 after falling more than 8% on Nov 4, after Vance blamed the Iran war for GOP election losses",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "Oil falls a fourth straight day: Brent at $93.82 (-0.85%), WTI at $86.92 (-1.36%) on Nov 5, as Iran war escalation concerns ease",
+   "url": "https://www.kccrradio.com/2026/11/05/oil-prices-fall-for-fourth-straight-day-as-iran-war-escalation-concerns-ease/",
+   "area": "makro"
+  },
+  {
+   "headline": "Nonfarm payrolls due Fri Nov 6 (Oct data, 8:30 ET): consensus +65k vs 29k prior; unemployment 4.2% vs 4.2% prior; avg hourly earnings 2.9% y/y vs 3.0% prior",
+   "url": "https://features.financialjuice.com/2026/11/02/us-nfp-prep-6th-november/",
+   "area": "makro"
+  },
+  {
+   "headline": "Earnings Thu Nov 5: pre-market includes Cigna, Cardinal Health, ConocoPhillips, Becton Dickinson, Duke Energy; after-close includes Airbnb, Cloudflare, Atlassian, Monster Beverage, Lumentum, Live Nation",
+   "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-2-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "Uber Q3 2026 results on Nov 4 send shares higher, with delivery bookings up 22% per headline reports",
+   "url": "https://www.cnbc.com/2026/11/04/uber-stock-q3-2026-earnings.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Disney Q4 FY2026 earnings webcast set for Tuesday Nov 17, 8:30 a.m. ET",
+   "url": "https://www.stocktitan.net/news/DIS/the-walt-disney-company-executives-to-discuss-fiscal-full-year-and-9dwf26nyom0j.html",
+   "area": "makro"
+  },
+  {
+   "headline": "CNBC (Nov 2): Fed will vote on rates less often, changing how consumer borrowing costs are set",
+   "url": "https://www.cnbc.com/2026/11/02/fed-rate-votes-consumer-borrowing-costs.html",
+   "area": "makro"
+  }
+ ]
+}
