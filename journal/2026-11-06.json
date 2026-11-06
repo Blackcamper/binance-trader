@@ -1,0 +1,64 @@
+{
+ "date": "2026-11-06",
+ "written_utc": "2026-11-06T13:24Z",
+ "picks": [],
+ "no_pick_reason": "Ingen køb: Chip-udsalget og Nvidia-faldet fra 5. november er allerede kendt og prisdannet, Novo Nordisk-nyheden er fra 4. november med splittede analytikere, og de øvrige kilder mangler dato, bekræftede tal eller er ikke nye nok til et køb i dag.",
+ "headlines_read": 11,
+ "headlines": [
+  {
+   "headline": "Nvidia stock slides as much as 9% on AI infrastructure spending fears",
+   "url": "https://www.fool.com/investing/2026/11/05/why-nvidia-stock-is-getting-punished-today/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Asian AI-linked chip stocks sink after US midterm elections",
+   "url": "https://www.bnnbloomberg.ca/markets/2026/11/05/world-shares-mostly-gain-after-us-midterm-elections-as-ai-related-stocks-sink/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Stocks making the biggest moves midday: Micron, Tesla, Tripadvisor, AppLovin, Nvidia and more",
+   "url": "https://www.cnbc.com/2026/11/05/stocks-making-the-biggest-moves-midday-mu-tsla-trip-app-nvda.html",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "3 Big Tech Stocks Sliding: What's Behind the Drop?",
+   "url": "https://www.marketbeat.com/articles/3-big-tech-stocks-sliding-whats-behind-the-drop/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Novo Nordisk raises FY2026 outlook after Q3 beat, adjusted operating profit up 27% at constant FX",
+   "url": "https://www.marketscreener.com/news/novo-more-ambitious-analysts-more-cautious-stock-up-ce785fdfda88fe2c",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "October jobs report due 8:30 ET today: consensus is +59,000 payrolls and 4.2% unemployment",
+   "url": "https://www.kiplinger.com/investing/economy/jobs-report-october-2026-what-to-expect",
+   "area": "makro"
+  },
+  {
+   "headline": "Stocks plunge Thursday: Dow -3.44% to 51,523.06, Nasdaq -5.52%, S&P 500 -4.36% in AI and chip selloff",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Oil rises on uncertainty over a US-Iran deal: Brent near $98, WTI near $90",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Fed holds at 3.75%-4% on Oct 28 in Warsh's first meeting as chair, with Cook and Hammack voting for a hike",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/warsh-press-conference-october-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "Fed projects one 2026 rate hike as Warsh skips dot plot submission",
+   "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/fed-projects-one-2026-rate-hike-as-warsh-skips-dot-plot-submission/579345",
+   "area": "makro"
+  },
+  {
+   "headline": "Earnings this week (Nov 10-14): DIS listed for Thursday Nov 13; JPM, V, MA, XOM, BA, KO, WMT, COST not listed",
+   "url": "https://www.tipranks.com/news/earnings-this-week-november-10-14",
+   "area": "makro"
+  }
+ ]
+}
