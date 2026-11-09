@@ -1,0 +1,65 @@
+{
+ "date": "2026-11-09",
+ "written_utc": "2026-11-09T13:28Z",
+ "picks": [],
+ "no_pick_reason": "Ingen af nyhederne er ny og lovende nok til et køb: NVDA-nyheden (CEO-undersøgelse og downgrade) er negativ og allerede slået igennem med et fald på ca. 5 %, TSM og chipsektorens opsving kender vi kun fra overskrifter, NVO's Q3-tal er fra 5. november og dermed prissat, og AMD-opgraderingen fra Oppenheimer er en enkelt analytikerhandling på en storcap, som sandsynligvis allerede er indregnet i kursen.",
+ "headlines_read": 11,
+ "note": "Big tech-agenten fandt ingen nyheder i dag.",
+ "headlines": [
+  {
+   "headline": "Nvidia's shares slide as chip giant probes CEO Jensen Huang over spy claims",
+   "url": "https://investing.com/news/economy-news/nvidias-outofhour-shares-fall-as-firm-probes-ceo-jensen-huang-5010476",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Nvidia downgraded from Buy to Hold at Aletheia",
+   "url": "https://247wallst.com/investing/2026/11/09/buy-sell-or-hold-mondays-top-upgrades-and-downgrades-advanced-micro-devices-airbnb-draftkings-l3-harris-technologies-molson-coors-nvidia-take-two-interactive-uber-technologies-and-more/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Oppenheimer upgrades AMD to Outperform with $600 price target",
+   "url": "https://247wallst.com/investing/2026/11/09/buy-sell-or-hold-mondays-top-upgrades-and-downgrades-advanced-micro-devices-airbnb-draftkings-l3-harris-technologies-molson-coors-nvidia-take-two-interactive-uber-technologies-and-more/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "TSMC rules out memory market entry, reaffirms focus on logic chip foundry",
+   "url": "https://sammyfans.com/2026/11/08/tsmc-rules-out-memory-market-entry",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Market Quick Take: Asian chipmakers rebound and Brent holds below USD 100",
+   "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---asian-chipmakers-rebound-and-brent-holds-below-usd-100---9-november-2026-09112026",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Novo Nordisk raises 2026 outlook after stronger-than-expected Q3 driven by obesity drug sales",
+   "url": "https://www.indianpharmapost.com/news/novo-nordisk-raises-2026-outlook-after-stronger-than-expected-q3-driven-by-obesity-drug-sales-22330",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Novo Nordisk's Wegovy Pill Has Topped 5 Million Prescriptions. Is the Stock a Buy Now?",
+   "url": "https://fool.com/investing/2026/11/08/novo-nordisks-wegovy-pill-has-topped-5-million-pre",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "US economy adds 165,000 jobs in October; unemployment steady at 4.1%",
+   "url": "https://www.insiderfinance.io/news/october-jobs-report-2026-signals-labor-resilience",
+   "area": "makro"
+  },
+  {
+   "headline": "October CPI due Tuesday Nov 10 at 8:30 ET; consensus 3.9% vs 3.7% prior",
+   "url": "https://forexfundamentals.com/economic-calendar/us-cpi/2026-11-10",
+   "area": "makro"
+  },
+  {
+   "headline": "Fed holds at 3.75%-4.00% on Oct 28 in 10-2 vote; Cook and Hammack wanted a hike",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/fomc-october-2026-fed-holds-rates",
+   "area": "makro"
+  },
+  {
+   "headline": "Oil steady as Qatar-mediated US-Iran talks show progress; Iran warns on Hormuz routes",
+   "url": "https://shipandbunker.com/news/world/334051-oil-steady-as-progress-made-in-usiran-talks-despite-iran-warning-it-controls-the-hormuz",
+   "area": "makro"
+  }
+ ]
+}
