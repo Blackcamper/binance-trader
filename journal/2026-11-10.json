@@ -1,0 +1,55 @@
+{
+ "date": "2026-11-10",
+ "written_utc": "2026-11-10T13:28Z",
+ "picks": [],
+ "no_pick_reason": "Ingen af nyhederne giver et nyt, ikke-prisat signal for de tilladte aktier: NVDA-sagen er allerede prissat i faldet på 4,27 %, chipindekset steg allerede 6,86 % den 9. november, CPI-udmeldingen har ingen klar retning for enkeltaktier, og Disney, Cisco og Walmart rapporterer først i næste uge med usikre datoer.",
+ "headlines_read": 9,
+ "note": "Big tech- og pharma-agenterne fandt ingen nyheder i dag.",
+ "headlines": [
+  {
+   "headline": "Nvidia board opens independent investigation into CEO Jensen Huang over national security concerns; NVDA falls 4.27% to $178.67, the Nasdaq-100 worst performer",
+   "url": "https://247wallst.com/investing/2026/11/10/the-nasdaq-100-just-had-its-best-day-since-march-without-nvidias-help/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Chip index jumps 6.86% on Nov 9 as AMD rises 13.26%, Micron 6.25%, TSMC 3.51%; Nvidia is the only major decliner",
+   "url": "https://en.sedaily.com/world/2026/11/10/chip-index-jumps-7-percent-on-bargain-hunting-as-nvidia",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Jensen Huang scandal may weaken Nvidia's China chip position: Entity List pause and Chip Security Act in focus",
+   "url": "https://finance.yahoo.com/markets/article/jensen-huangs-spy-scandal-may-cost-nvidia-the-china-chip-fight-it-was-winning-121310306.html",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "October CPI preview: headline seen at +0.3% m/m, core at +0.2% m/m; BLS releases 8:30 ET today",
+   "url": "https://www.kiplinger.com/investing/economy/october-2026-cpi-report-what-to-expect",
+   "area": "makro"
+  },
+  {
+   "headline": "US CPI calendar: October release 13:30 UTC (8:30 ET), consensus 3.9% y/y vs 3.7% prior",
+   "url": "https://forexfundamentals.com/economic-calendar/us-cpi/2026-11-10",
+   "area": "makro"
+  },
+  {
+   "headline": "FXStreet: US CPI data expected to ease in October as markets reassess Fed rate-hike bets",
+   "url": "https://www.fxstreet.com/news/us-cpi-data-set-to-ease-in-october-as-markets-reassess-fed-rate-hike-expectations-202611100930",
+   "area": "makro"
+  },
+  {
+   "headline": "Bloomberg: US inflation likely cooled in October after two months of faster price gains",
+   "url": "https://bloomberg.com/news/articles/2026-11-07/us-inflation-set-to-simmer-down-some-after-recent-pickup",
+   "area": "makro"
+  },
+  {
+   "headline": "Earnings calendar, week of Nov 9-13: PANW, AMAT, ROST, WSM, CEG, KKR, OXY, TTWO report; JPM, V, MA, XOM, BA, DIS, KO, WMT, COST, CSCO are not on it",
+   "url": "https://pro.thestreet.com/earnings/week/2026-11-09",
+   "area": "makro"
+  },
+  {
+   "headline": "Earnings calendar, week of Nov 16-20: Disney Nov 17, Cisco Nov 18 (no time set), Walmart Nov 19",
+   "url": "https://pro.thestreet.com/earnings/week/2026-11-16",
+   "area": "makro"
+  }
+ ]
+}
