@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-11",
+ "written_utc": "2026-11-11T13:24Z",
+ "picks": [],
+ "no_pick_reason": "Ingen af nyhederne er nye nok eller entydige nok til et køb: de store navne er allerede steget kraftigt (AAPL, META, PLTR), årsagerne til flere kursbevægelser er ikke verificerede (MSFT, AMZN, TSLA), NFLX-nyheden peger på nedjusterede estimater, og den vigtigste makronyhed (oktober-CPI) mangler det faktiske udfald.",
+ "headlines_read": 13,
+ "note": "AI/halvleder- og pharma-agenterne fandt ingen nyheder i dag.",
+ "headlines": [
+  {
+   "headline": "Apple closes above $350 for first time, market cap tops $5 trillion",
+   "url": "https://247wallst.com/investing/2026/11/10/apple-is-above-5-trillion-after-its-first-ever-close-above-350/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Microsoft stock drops from its highs as Anthropic takes aim at Excel and workplace software",
+   "url": "https://www.fxleaders.com/news/2026/11/10/microsoft-msft-stock-drops-from-the-highs-on-excel-challenge-following-anthropic-workplace-software-announcement/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Alphabet to buy about $10 billion of Anthropic shares in its IPO",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-rise-0-34-180311251.html",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Meta jumps 5.12% to $641.37 as JPMorgan adds it to its focus list in place of Alphabet",
+   "url": "https://financefeeds.com/meta-stock-jumps-5-12-to-641-37-as-jpmorgan-swaps-it-into-its-focus-list-for-alphabet/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Amazon shares climb 1.5%",
+   "url": "https://www.marketbeat.com/instant-alerts/price-amazoncom-nasdaq-amzn-shares-climb-15-heres-what-happened-2026-11-10/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Netflix stock faces valuation reset despite strong cash generation",
+   "url": "https://www.tradingpedia.com/2026/11/11/netflix-stock-faces-valuation-reset-despite-strong-cash/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Palantir rises 5.5% as AI stocks rebound",
+   "url": "https://www.heygotrade.com/en/news/palantir-pltr-stock-news-november-10-2026/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Tesla rises 0.5% to $379.78",
+   "url": "https://www.heygotrade.com/en/news/tesla-tsla-stock-news-november-11-2026/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Pre-CPI preview: October inflation seen moderating, but Fed December hike odds climb",
+   "url": "https://political.org/2026/11/09/inflation-stays-hot-ahead-of-key-october-cpi-report-as-fed-rate-hike-odds-climb-before-december-meeting/",
+   "area": "makro"
+  },
+  {
+   "headline": "U.S. stocks close higher: Dow +2.15%, S&P 500 +2.35%, Nasdaq +2.74% (session of Mon Nov 9)",
+   "url": "https://www.thestar.com.my/news/world/2026/11/10/us-stocks-close-higher",
+   "area": "makro"
+  },
+  {
+   "headline": "Week of Nov 9 preview: CPI and PPI, five Fed speakers, and Cisco earnings",
+   "url": "https://stocktwits.com/news-articles/markets/equity/what-to-expect-markets-this-week-nov-8-2026/cNGYG4ZR9Iu",
+   "area": "makro"
+  },
+  {
+   "headline": "Fed leaves rates steady as governor Lisa Cook dissents",
+   "url": "https://www.axios.com/2026/10/28/fed-warsh-interest-rates-cook",
+   "area": "makro"
+  },
+  {
+   "headline": "Oil slides as Iran strike fears ease; Brent falls",
+   "url": "https://gulfnews.com/business/energy/oil-slides-as-iran-strike-fears-ease-brent-falls-1.500741822",
+   "area": "makro"
+  }
+ ]
+}
