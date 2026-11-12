@@ -1,0 +1,55 @@
+{
+ "date": "2026-11-12",
+ "written_utc": "2026-11-12T13:25Z",
+ "picks": [],
+ "no_pick_reason": "Ingen af nyhederne giver en konkret, selskabsspecifik og endnu ikke prisfastsat grund til at vælge en aktie frem for QQQ de næste 5 handelsdage. NVDA har kun en ubekræftet rapport om bestyrelsens plan, og aktien er allerede faldet ca. 9% efter lukning, så retningen er uklar. AMD og AVGO steg i sympati, og AMD's William Blair-opgradering er sandsynligvis indregnet i præmarkedet. CSCO har kun forventninger og ingen faktisk resultatudmelding i filen.",
+ "headlines_read": 9,
+ "note": "Agenterne for big tech og pharma/Europa fandt intet.",
+ "headlines": [
+  {
+   "headline": "Reports say Nvidia's board is preparing to remove CEO Jensen Huang; Nvidia shares fall while AMD and Broadcom rise",
+   "url": "https://seekingalpha.com/news/4671101-chip-rivals-amd-broadcom-rally-as-nvidia-board-weighs-ousting-ceo-jensen-huang",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "AMD and Broadcom Stocks Climb While Nvidia Partners Slip on Jensen Huang Exit Fears",
+   "url": "https://www.tipranks.com/news/amd-and-broadcom-stocks-jump-while-nvidia-partners-slip-on-jensen-huang-exit-fears",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "S&P 500 +1.3%, Nasdaq Composite +1.6% on Wed 11/11/2026; S&P closed at 7,619.38 and Nasdaq at 25,466.19",
+   "url": "https://krmg.com/2026/11/11/how-major-us-stock-indexes-fared-wednesday-11-11-2026/",
+   "area": "makro"
+  },
+  {
+   "headline": "CoreWeave shares close up 24.7% after Q3 revenue of $3.66B beats its own forecast and 2026 revenue guidance is raised to $13.0-13.3B",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-11-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "Nvidia closes up 2.9% on 11/11, then falls about 8.6% after hours as WSJ reports its board is preparing to remove CEO Jensen Huang",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-11-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "Hot October CPI pushes December Fed hike odds to about 87-90%; Dallas Fed's Logan says at least two more 25bp hikes may be needed",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-11-095100012.html",
+   "area": "makro"
+  },
+  {
+   "headline": "October CPI rises 0.4% m/m (vs 0.6% in September); core CPI rises 0.3%; annual rates not reported due to missing shutdown-era data",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-11-095100012.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Tuesday 11/10 close: Dow -0.3% to 52,231.89, Nasdaq -0.7% to 25,065.87, S&P -0.4% to 7,520.93; IT sector -1.4%; VIX 19.46",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-11-095100012.html",
+   "area": "makro"
+  },
+  {
+   "headline": "This week's calendar: October CPI and PPI releases, Fed speakers, and Cisco, Trade Desk, CoreWeave and Nebius earnings",
+   "url": "https://stocktwits.com/news-articles/markets/equity/what-to-expect-markets-this-week-nov-8-2026/cNGYG4ZR9Iu",
+   "area": "makro"
+  }
+ ]
+}
