@@ -1,0 +1,55 @@
+{
+ "date": "2026-11-13",
+ "written_utc": "2026-11-13T15:26Z",
+ "picks": [],
+ "no_pick_reason": "Nyhederne i filen er allerede prissat eller giver ikke et klart køb-signal: Fed-markedet har fuldt prissat en december-renteforhøjelse, PPI kom i tråd med forventningerne, og oliestigningen på Brent (til 95,82 USD) skete allerede 12. nov. NVDA's CEO-skifte og fald på 4,34 % er en usikker risiko op til regnskabet 17. nov, og Cisco's resultater fra 12. nov står ikke i filen, så ingen aktie i universet har en ny, underprissat fordel over QQQ efter 0,5 % omkostninger.",
+ "headlines_read": 9,
+ "note": "Agenterne for AI/halvledere og pharma/Europa fandt intet. Kørslen startede først 15:24 UTC (planlagt 13:20).",
+ "headlines": [
+  {
+   "headline": "Cisco schedules conference call for Q1 fiscal 2027 financial results (call Thu Nov 12, 2026, 4:30 PM ET; results not retrievable in search)",
+   "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html?source=rss",
+   "area": "big-tech"
+  },
+  {
+   "headline": "S&P 500, Dow and Nasdaq all close lower on Nov 12 (S&P 500 at 7,592.40, Nasdaq Composite at 25,366.09)",
+   "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-211731317.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Fed Governor Waller: supports a 25bp hike at December FOMC, with 50bp possible if core CPI runs near 0.3% or higher",
+   "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+   "area": "makro"
+  },
+  {
+   "headline": "October PPI: final demand up 0.3% m/m (below 0.4% consensus) and 6.5% y/y; core up 0.3% m/m and 5.0% y/y",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-12-071100866.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Fed's Hammack calls for 'smaller, more frequent hikes'; futures fully price a December hike; 2-year yield near 4.88%, 10-year back above 5%",
+   "url": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "area": "makro"
+  },
+  {
+   "headline": "Jensen Huang resigns as Nvidia CEO; NVDA falls 4.34%, CFO Colette Kress named interim CEO",
+   "url": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "area": "makro"
+  },
+  {
+   "headline": "Nebius falls 16.84% on higher capex and softer guidance; AI cloud and Asian chip stocks sell off",
+   "url": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "area": "makro"
+  },
+  {
+   "headline": "Oil rises as Houthi attacks hit Saudi energy sites and Iran reports tanker explosions in the Strait of Hormuz; Brent up 3.3% to $95.82",
+   "url": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "area": "makro"
+  },
+  {
+   "headline": "Earnings week of Nov 16: Home Depot, NVIDIA, Target, Walmart, plus Klarna, SQM and Amer Sports",
+   "url": "https://www.earningswhispers.com/calweek/20261116",
+   "area": "makro"
+  }
+ ]
+}
