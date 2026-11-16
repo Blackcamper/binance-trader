@@ -1,0 +1,99 @@
+{
+ "date": "2026-11-16",
+ "written_utc": "2026-11-16T13:28Z",
+ "picks": [],
+ "no_pick_reason": "Nyhedsbilledet er stort set kendt og delvist prist ind: Huang-exiten og rivalernes forventede gevinst blev handlet allerede 13. november, og AMD og Broadcom faldt igen i præmarket 16. november. Nvidia-regnskabet 17. november er en binær begivenhed uden klar fordel, og markedet prissætter 88 procent sandsynlighed for en rentestigning i december, hvilket gør det usikkert at slå QQQ over fem handelsdage.",
+ "headlines_read": 18,
+ "headlines": [
+  {
+   "headline": "Nvidia reports first quarterly results since Jensen Huang's exit; shares fall to longest weekly losing streak since 2012",
+   "url": "https://1027wbow.com/2026/11/16/sp-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Nvidia's Jensen Huang resigns as CEO; CFO Colette Kress named interim CEO",
+   "url": "https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Rivals see opening to break Nvidia's chip monopoly after Huang resigns",
+   "url": "https://www.manufacturing.net/operations/news/22978407/rivals-see-opening-to-break-nvidias-chip-monopoly-after-huang-resigns",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "TSMC's new US$500 million arm could invest in chip suppliers",
+   "url": "https://digitimes.com/news/a20261113VL236/tsmc-investment-manufacturing-openai-development.html",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "TSMC considers making advanced AI memory chips for Nvidia, The Information reports",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/tsmc-mulls-making-advanced-ai-memory-chips-information-says",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Nvidia fallout, Anthropic IPO squeeze Asian chip stocks anew",
+   "url": "https://bloomberg.com/news/articles/2026-11-16/nvidia-fallout-anthropic-listing-squeeze-asian-chip-stocks-anew",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Anthropic's IPO lands as the embattled AI trade looks for a much-needed bright spot",
+   "url": "https://cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "AMD and Broadcom stocks fall in premarket trading on Monday",
+   "url": "https://invezz.com/uk/news/2026/11/16/why-are-amd-and-broadcom-stocks-falling-in-premarket-trading-on-monday/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Stocks decline in Asia as investor concerns over Nvidia fallout extend into another week",
+   "url": "https://abcnews.com/Business/wireStory/stocks-decline-asia-investor-concerns-nvidia-fallout-extend-138169919",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Microsoft restores service to Outlook and Teams after global outage",
+   "url": "https://rappler.com/technology/microsoft-service-restoration-november-14-2026",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Walmart Q3 earnings scheduled for November 19, 2026, before market open",
+   "url": "https://earnings-watcher.com/wiki/wmt-earnings-november-2026",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Wall Street ends mixed Friday as AI pullback weighs, yet S&P 500 posts best week since August",
+   "url": "https://decodenewsai.us/en/posts/2026-11-13-wall-street-close-500-nvidia-pullback-0b1e9d",
+   "area": "makro"
+  },
+  {
+   "headline": "Markets price 88% odds of a December Fed hike as Waller, Logan and Collins turn hawkish; 10-year yield 5.15%",
+   "url": "https://investrade.com/market-review-november-13-2026/",
+   "area": "makro"
+  },
+  {
+   "headline": "Oil settles near $96 Brent and $88.56 WTI Friday, both on track for weekly declines of about 2.5%",
+   "url": "https://vistapglobal.com/weekly-stock-market-summary-november-13-2026-nasdaq-slides-as-inflation-and-ai-risks-shape-wall-street-ant-eprx-googl-gs-modd-msft-nvda-ser-spcx/",
+   "area": "makro"
+  },
+  {
+   "headline": "US consumer prices rise 0.4% in October, above forecasts, as core inflation holds at 0.3%",
+   "url": "https://stockanalysis.com/news/us-cpi-rises-october-2026/",
+   "area": "makro"
+  },
+  {
+   "headline": "Nvidia reports fiscal Q3 2027 results Nov. 17 amid sell signals",
+   "url": "https://www.insiderfinance.io/news/nvidia-earnings-set-for-nov-17-amid-sell-signals",
+   "area": "makro"
+  },
+  {
+   "headline": "Home Depot reports Nov. 17 at 9:00 a.m. ET; FY2026 guidance reaffirmed in August",
+   "url": "https://news.ifyouspent.com/en/news/retail-earnings-preview-walmart-home-depot-target-november-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "Walmart reports fiscal Q3 2027 on Nov. 19; guided adjusted EPS $0.62-$0.64",
+   "url": "https://news.ifyouspent.com/en/news/retail-earnings-preview-walmart-home-depot-target-november-2026",
+   "area": "makro"
+  }
+ ]
+}
