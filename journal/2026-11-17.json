@@ -1,0 +1,109 @@
+{
+ "date": "2026-11-17",
+ "written_utc": "2026-11-17T13:23Z",
+ "picks": [],
+ "no_pick_reason": "Nvidia aflægger regnskab i aften, og aktien er faldet ca. 35 % på forhånd, så en del af risikoen er allerede prissat ind, mens retningen efter regnskabet er uvis og BIS-reglen om fjernadgang er en modvind. De øvrige nyheder er rutine, allerede kendte (fx Fed-renteforventninger fra 10. nov.) eller uden klar positiv effekt, så der er ingen tydelig ny katalysator for et køb i universet.",
+ "headlines_read": 20,
+ "headlines": [
+  {
+   "headline": "Nvidia interim CEO Kress faces first earnings call since Jensen Huang's departure tonight",
+   "url": "https://fortune.com/2026/11/17/nvidia-q3-earnings-colette-kress-madison-huang/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "After a 35% sell-off, Nvidia has never looked cheaper ahead of tonight's results",
+   "url": "https://uk.investing.com/news/stock-market-news/after-a-35-selloff-nvidia-has-never-looked-cheaper-ahead-of-tonights-results-4987652",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Nvidia rises ahead of earnings as US tightens AI chip remote access restrictions",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262308986-nvidia-earnings-ai-chip-remote-access-restrictions-tradingkey",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "U.S. chip stocks slide as traders unwind Nvidia rival bets before earnings",
+   "url": "https://www.investing.com/news/stock-market-news/us-chip-stocks-slide-as-traders-unwind-nvidia-rival-bets-before-earnings-5030435",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Apple Confirms iOS 27.3 Beta 2 Coming Today",
+   "url": "https://www.macrumors.com/2026/11/16/ios-27-3-beta-2-coming-today/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Apple Seeks 200,000 People for AI Health Study",
+   "url": "https://www.macrumors.com/2026/11/16/apple-seeks-200000-people-for-ai-health-study/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "iPhone 20 Pro Rumored to Feature New 17nm Camera Sensor",
+   "url": "https://www.macrumors.com/2026/11/16/iphone-20-pro-new-17nm-camera-sensor/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "'iPhone 20 Pro' Rumored to Be Based on iPhone Air",
+   "url": "https://www.macrumors.com/2026/11/16/iphone-20-pro-to-be-based-on-iphone-air/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Apple TV App to Get Video Podcasts Section Today",
+   "url": "https://www.macrumors.com/2026/11/16/apple-tv-app-to-get-video-podcasts-section/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Eli Lilly agrees to acquire Calytrix Bio for up to $1.5 billion",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-16/eli-lilly-agrees-to-buy-calytrix-bio-for-up-to-1-5-billion",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "JPMorgan working to fix technical issue affecting Chase customers",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-16/jpmorgan-is-working-to-fix-technical-issue-affecting-customers",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Visa, Mastercard urge approval of $38 billion swipe fee settlement",
+   "url": "https://gvwire.com/2026/11/16/visa-mastercard-urge-approval-of-38-billion-swipe-fee-settlement/",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Novo Nordisk A/S share repurchase programme, November 16, 2026",
+   "url": "https://www.biospace.com/press-releases/novo-nordisk-a-s-share-repurchase-programme-november-16-2026",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "ASML Holding stock opened down 3.69% on Nov 16",
+   "url": "https://www.tradingkey.com/news/market-movers/262307222-market-movers-asml-20261116",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "First Financial Bankshares buys new stake in SAP SE",
+   "url": "https://www.marketbeat.com/instant-alerts/filing-first-financial-bankshares-inc-buys-new-stake-in-sap-se-sap-2026-11-17/",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Fed speak primer: Waller says a half-point hike may be needed in December if October core CPI is about 0.3%; markets fully price a 25bp December hike",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-fed-speak-primerschedule-rate-hike-bets-pick-up-after-waller-and-hot-cpi",
+   "area": "makro"
+  },
+  {
+   "headline": "NVIDIA sets conference call for Q3 fiscal 2027 results: Tuesday, November 17, 2:00 p.m. PT",
+   "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+   "area": "makro"
+  },
+  {
+   "headline": "Newsquawk weekly economic release calendar, 16th to 20th November 2026",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-16th---20th-november-2026",
+   "area": "makro"
+  },
+  {
+   "headline": "Wall Street jumps as oil slide cools inflation worries; Nvidia slumps",
+   "url": "https://www.nst.com.my/amp/business/corporate/2026/11/1574335/wall-street-jumps-oil-slide-cools-inflation-worries-nvidia",
+   "area": "makro"
+  },
+  {
+   "headline": "Is a 2.5% comps estimate enough for Home Depot (HD) to lead retail earnings on November 17?",
+   "url": "https://kalkine.ca/news/retail/is-a-25-comps-estimate-enough-for-home-depot-nysehd-to-lead-retail-earnings-on-november-17",
+   "area": "makro"
+  }
+ ]
+}
