@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-18",
+ "written_utc": "2026-11-18T13:25Z",
+ "picks": [
+  {
+   "ticker": "NVDA",
+   "confidence": 3,
+   "horizon_days": 5,
+   "reason": "Nvidia slog forventningerne i FY2027 Q3 med en omsætning på 115,8 mia. USD mod 108,8 mia. ventet og en Q4-guidance på 130 mia. USD, og aktien steg over 4 % efter lukning, men den ordinære handelsdag er ikke bekræftet og sektoren faldt den 17. november.",
+   "sources": [
+    "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026"
+   ]
+  }
+ ],
+ "no_pick_reason": "",
+ "headlines_read": 5,
+ "note": "Agenten for pharma/Europa fandt intet.",
+ "headlines": [
+  {
+   "headline": "Nvidia FY2027 Q3 results: revenue $115.8B vs $108.8B forecast, Q4 guide $130B; NVDA up 4%+ after hours",
+   "url": "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Salesforce shares fall about 9% intraday on Nov 17 as chip and software stocks sell off",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026",
+   "area": "big-tech"
+  },
+  {
+   "headline": "How major US stock indexes fared Monday 11/16/2026: Dow down 1.4%, S&P 500 down 1.9%, Nasdaq down 2.5%",
+   "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/",
+   "area": "makro"
+  },
+  {
+   "headline": "Brent crude falls about 1% to $94.86, WTI slips below $88 as supply surplus looms",
+   "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-16-2026-brent-falls-1percent-to-94-86-wti-slips-below-88-as-supply-surplus-looms",
+   "area": "makro"
+  },
+  {
+   "headline": "Oil prices fall on expectations of coming supply surplus",
+   "url": "https://boereport.com/2026/11/15/oil-prices-fall-on-expectations-of-coming-supply-surplus/amp/",
+   "area": "makro"
+  }
+ ]
+}
