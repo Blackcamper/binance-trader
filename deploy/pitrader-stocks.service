@@ -1,0 +1,14 @@
+[Unit]
+Description=pitrader US stocks paper run, one pass (virtual money, public daily prices)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=pi
+WorkingDirectory=/home/pi/binance-trader
+# the weekly backtest of 25 years can take a while on the Pi Zero; the crypto sim comes first
+ExecStart=/usr/bin/python3 -m pitrader stocks
+Nice=19
+TimeoutStartSec=4h
+NoNewPrivileges=true

@@ -1,0 +1,9 @@
+[Unit]
+Description=Run the pitrader stocks pass every hour
+
+[Timer]
+OnCalendar=*-*-* *:40:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

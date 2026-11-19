@@ -1,0 +1,25 @@
+{
+  "run_name": "stocks-v1",
+  "start_date": "2026-11-02",
+  "capital_dkk": 5000,
+  "tickers": ["NVDA", "AMD", "AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA", "AVGO", "TSM", "ASML", "QQQ", "SPY"],
+  "rules": [
+    {"type": "buy_and_hold"},
+    {"type": "faber", "months": 10},
+    {"type": "tsmom", "months": 12},
+    {"type": "ema_cross", "fast": 50, "slow": 200},
+    {"type": "vol_target", "target_vol": 0.20, "com": 60, "periods": 252, "band": 0.10},
+    {"type": "donchian", "entry": 20, "exit": 10}
+  ],
+  "fee_rate": 0.0015,
+  "fee_min_dkk": 7.0,
+  "fx_fee": 0.0025,
+  "half_spread": 0.0002,
+  "extra_slippage_bps": 5,
+  "tax_scenarios": {
+    "high": {"gain_rate": 0.42, "loss_value_rate": 0.0},
+    "low": {"gain_rate": 0.27, "threshold_dkk": 79400, "rate_above": 0.42, "loss_value_rate": 0.27}
+  },
+  "backtest_start": "2000-01-01",
+  "backtest_every_days": 7
+}
