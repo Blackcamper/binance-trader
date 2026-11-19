@@ -2,7 +2,9 @@
 # Hourly job on the Pi (pitrader-sync.timer), approved by Jakob 2026-10-19:
 #  1. pull new code from the pi-live branch (public repo, no key); restart only if it changed
 #     and the new code compiles
-#  2. push the latest status files to the private status repo (deploy key for that repo only)
+#  2. copy the Haiku news diary (public branch nyheds-dagbog, written by a scheduled Claude task)
+#     and score it with public daily prices; paper only, added 2026-10-20
+#  3. push the latest status files to the private status repo (deploy key for that repo only)
 # Nothing here touches money or exchange keys.
 set -u
 REPO=$HOME/binance-trader
@@ -30,6 +32,13 @@ if git fetch -q origin "$BRANCH"; then
     fi
 fi
 
+NEWS=$REPO/data/nyheder
+if git fetch -q origin nyheds-dagbog 2>/dev/null; then
+    mkdir -p "$NEWS/journal"
+    git archive origin/nyheds-dagbog journal 2>/dev/null | tar -x -C "$NEWS" 2>/dev/null
+    timeout 900 nice -n 15 python3 -m pitrader news-score >/dev/null 2>&1
+fi
+
 # stocks timer (added 2026-10-30): installed here, outside the update step, because the
 # copy of this script that pulls the update is still the old one
 if [ -f deploy/pitrader-stocks.timer ] && ! systemctl is-enabled -q pitrader-stocks.timer 2>/dev/null; then
@@ -49,6 +58,7 @@ if [ -f "$DATA/equity.csv" ]; then
     { head -1 "$DATA/equity.csv"; tail -n 300 "$DATA/equity.csv" | grep -v '^utc'; } > "$STATUS/equity-tail.csv"
 fi
 [ -f "$DATA/backtest/report.md" ] && cp "$DATA/backtest/report.md" "$STATUS/backtest.md"
+[ -f "$NEWS/score.md" ] && cp "$NEWS/score.md" "$STATUS/nyheder.md"
 mkdir -p "$STATUS/stocks"
 for f in status.json summary.txt; do
     [ -f "$STOCKS/$f" ] && cp "$STOCKS/$f" "$STATUS/stocks/$f"
