@@ -1,0 +1,89 @@
+{
+ "date": "2026-11-19",
+ "written_utc": "2026-11-19T13:24Z",
+ "picks": [],
+ "no_pick_reason": "Ingen af nyhederne giver en ny, verificeret købsfordel inden for 5 handelsdage, som ikke allerede er prissat. Nvidia-regnskabet blev modtaget af markedet 18. nov., hvor aktien vendte til et fald, Walmart-resultatet er ukendt, og Googles Gemini-nyhed har kun en svag kilde og ingen dokumenteret årsag til kursstigningen.",
+ "headlines_read": 16,
+ "headlines": [
+  {
+   "headline": "Nvidia Q3 FY27 revenue hits $115.8B, beats consensus and guides Q4 to $130B",
+   "url": "https://www.techpowerup.com/354965/nvidia-reports-q3-2026-earnings-of-usd-115-8-billion",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Nvidia shares rise in extended trading after earnings beat, following a 0.4% regular-session dip",
+   "url": "https://stockanalysis.com/news/nvda-q3-fy2027-earnings-beat/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Nvidia posts results amid Huang resignation; board says it will not reinstate him as CEO",
+   "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-outlook-amid-huang-resignation",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Nvidia shipped $2.4B of older Hopper chips to China in Q3; Bessent questions Southeast Asian resale",
+   "url": "https://stockanalysis.com/news/nvda-q3-fy2027-earnings-beat/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Dell expands AI Factory with Nvidia: liquid-cooled Exascale storage and OpenManage Rack Scale",
+   "url": "https://hpcwire.com/2026/11/16/dell-expands-ai-factory-with-nvidia-adds-liquid-cooled-exascale-storage-and-management-tools",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "AMD falls 11%, Broadcom and Intel slide 6% as chip rally reverses after Huang exit",
+   "url": "https://247wallst.com/investing/2026/11/13/amd-tumbles-11-broadcom-and-intel-slide-6-as-chip-rally-reverses/",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Anthropic tops SpaceX's record debut with $81bn IPO",
+   "url": "https://www.irishexaminer.com/business/companies/arid-41939664.html",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Google ships Gemini 4 Neon",
+   "url": "https://techtrendsnewsupdate.substack.com/p/tech-trends-news-update-morning-brief-692",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Walmart to host third quarter earnings conference call November 19, 2026",
+   "url": "https://finviz.com/news/421667/walmart-to-host-third-quarter-earnings-conference-call-november-19-2026",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Stocks fall for second straight day on AI-stock jitters; S&P 500 closes at 7,323.63 on Nov 18 (-0.2%) as Dow drops 1.1% and Nasdaq gains 0.4%",
+   "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-11182026-nid18112026/",
+   "area": "makro"
+  },
+  {
+   "headline": "Nvidia and AI stocks lead Wall Street lower on Nov 17; S&P 500 down 1.0% to 7,340.53, Dow down 1.6%, Nasdaq down 0.7%",
+   "url": "https://www.valleynewslive.com/2026/11/17/another-wipeout-hits-wall-street-nvidia-other-jittery-ai-stocks-swing-lower/",
+   "area": "makro"
+  },
+  {
+   "headline": "FOMC minutes due Wed Nov 18 at 2:00 pm ET covering the Oct 28 meeting",
+   "url": "https://www.newsquawk.com/headlines/primer-fomc-minutes-due-wednesday-1900gmt1400est",
+   "area": "makro"
+  },
+  {
+   "headline": "US initial jobless claims rise to 200,000 for week ending Nov 12; four-week average 195,250",
+   "url": "https://azat.tv/en/us-jobless-claims-rise-november-2026/",
+   "area": "makro"
+  },
+  {
+   "headline": "Walmart reports Q3 Thursday Nov 19 (consensus EPS $0.64, revenue $186.5B); Target reports Wed Nov 18",
+   "url": "https://www.fxstreet.com/news/walmart-target-and-nvidia-headline-a-pivotal-week-for-q3-earnings-202611160751",
+   "area": "makro"
+  },
+  {
+   "headline": "Crude settles higher on Iran rhetoric and Hormuz tanker mine reports; WTI $86.53, Brent $92.76 (Nov 11 settle)",
+   "url": "https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-049-higher-at-8653bbl-brent-f7-settles-usd-127-higher-at-9276bbl",
+   "area": "makro"
+  },
+  {
+   "headline": "Thanksgiving week calendar: GDP second estimate, October PCE and jobless claims Wed Nov 25; markets close Thu Nov 26",
+   "url": "https://www.simianx.ai/stories/us-economic-calendar-this-month-in-your-time-zone",
+   "area": "makro"
+  }
+ ]
+}
