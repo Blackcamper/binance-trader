@@ -1,0 +1,50 @@
+{
+ "date": "2026-11-20",
+ "written_utc": "2026-11-20T13:24Z",
+ "picks": [],
+ "no_pick_reason": "Ingen af dagens nyheder giver en ny fordel i universet, der ikke allerede er prissat. NVIDIAs opjusterede vækstudsigter og Anthropic-IPO'en er allerede reageret i kurserne efter torsdagens handel, Walmart falder trods hævet guidance, og Fed-referatet peger på flere renteforhøjelser, som trækker markedet ned bredt.",
+ "headlines_read": 8,
+ "note": "Agenterne for AI/halvledere og pharma/Europa fandt intet.",
+ "headlines": [
+  {
+   "headline": "Anthropic shares open on Nasdaq at $111.50, then close at $97.17 in first trading day as ANT",
+   "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Anthropic prices IPO at $83 a share, above the $70-$78 range, valuing it at about $1.5 trillion",
+   "url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Nvidia raises sales growth outlook after results; shares rise more than 5% after hours, while CEO succession remains open",
+   "url": "https://fortune.com/2026/11/18/nvidia-message-wall-street-couldnt-come-at-better-time-anthropic/",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Walmart Q3 FY27 beats and raises FY27 outlook; shares fall about 1.9% premarket to $124.91",
+   "url": "https://www.investing.com/news/company-news/walmart-q3-fy27-slides-strong-results-raised-guidance-amid-costs-93CH-5039238",
+   "area": "makro"
+  },
+  {
+   "headline": "Fed minutes: almost all participants see further hikes as likely appropriate; Waller calls for a 50bp hike at the Dec 8-9 meeting",
+   "url": "https://pro.thestreet.com/stock-market-today/fed-minutes-almost-all-see-more-hikes-and-a-couple-floated-a-bigger-move",
+   "area": "makro"
+  },
+  {
+   "headline": "Oil slips on API crude build and Hormuz risk: Brent about $92.53, WTI about $84.77 (Nov 18 intraday)",
+   "url": "https://boereport.com/2026/11/18/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks/amp/",
+   "area": "makro"
+  },
+  {
+   "headline": "S&P 500 falls 0.2% to 7,323.63, Dow drops 1.1%, Nasdaq gains 0.4% on Nvidia reversal (Nov 18 close)",
+   "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-11182026-nid18112026/",
+   "area": "makro"
+  },
+  {
+   "headline": "Thanksgiving-week calendar: PCE and GDP revision Wed Nov 25, Beige Book 2pm, markets closed Thu Nov 26, early close Fri Nov 27",
+   "url": "https://www.simianx.ai/stories/us-economic-calendar-this-month-in-your-time-zone",
+   "area": "makro"
+  }
+ ]
+}
