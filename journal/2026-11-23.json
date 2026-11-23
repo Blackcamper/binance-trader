@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-23",
+ "written_utc": "2026-11-23T13:27Z",
+ "picks": [],
+ "no_pick_reason": "Ingen køb: nyhederne er enten allerede prisfastsat efter fredagens kraftige fald (NVDA -14 %, Nasdaq -5,28 %, VIX 35,9), eller de er negative eller usikre (SEC-undersøgelse af Nvidia, uverificerede ransomware-påstande mod Visa og Mastercard, næsten sikker decemberrenteforhøjelse). Dell-regnskabet tirsdag efter lukning er en kendt begivenhed med ukendt retning, og nyhederne alene giver ikke et edge.",
+ "headlines_read": 13,
+ "note": "Agenten for big tech fandt intet.",
+ "headlines": [
+  {
+   "headline": "NVDA, INTC Stocks Ease Post 5-Day Rout: After Meeting Xi Jinping, Trump Says Nvidia Blackwell Chips Could Reach China Within 2-3 Years",
+   "url": "https://stocktwits.com/news-articles/markets/equity/nvda-intc-stocks-ease-post-5-day-rout-after-meeting-xi-jinping-trump-says-nvidia-blackwell-chips-could-reach-china-within-2-3-years/cNbiTxFR9io",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "Nvidia Stops Selling AI Chips to China Despite US Approval",
+   "url": "https://news.bgov.com/bloomberg-government-news/nvidia-stops-selling-ai-chips-to-china-despite-us-approval",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "JPMorgan, Visa and Mastercard confirm third-party vendor cyberattacks that may have exposed customer data",
+   "url": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Cyber attack hits Visa and Mastercard as ransomware group claims massive customer data breach in US",
+   "url": "https://organiser.org/2026/11/19/427463/international/cyber-attack-hits-visa-and-mastercard-as-ransomware-group-claims-massive-customer-data-breach-in-us/",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+   "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "Eli Lilly makes a deal outside obesity, plus another word of caution on Nvidia",
+   "url": "https://www.cnbc.com/investingclub/2026/11/16/eli-lilly-makes-a-deal-outside-obesity-plus-another-word-of-caution-on-nvidia.html",
+   "area": "pharma-europa"
+  },
+  {
+   "headline": "S&P 500 falls 3.70% and Nasdaq 5.28% on Friday Nov 20 close; S&P and Dow now more than 10% below record closes",
+   "url": "https://swingfolio.com/daily/us/2026-11-21/weekend",
+   "area": "makro"
+  },
+  {
+   "headline": "Reuters: SEC enforcement staff examining possible accounting issues at Nvidia; NVDA falls 14.01% Friday",
+   "url": "https://swingfolio.com/daily/us/2026-11-21/weekend",
+   "area": "makro"
+  },
+  {
+   "headline": "Fed's Waller says central bank may need to shock people with a half-point rate hike",
+   "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Fed-hike pricing: CME FedWatch gives 95.4% chance of a December 25bp hike as of Nov 17; Cook says policy rate not high enough",
+   "url": "https://swingfolio.com/daily/us/2026-11-21/weekend",
+   "area": "makro"
+  },
+  {
+   "headline": "Brent falls to $90.95 and WTI to $82.17 as supply offsets Gulf attacks; oil's third straight weekly loss",
+   "url": "https://www.tradingpedia.com/2026/11/23/oil-retreats-as-mideast-supply-gains-offset-tensions/",
+   "area": "makro"
+  },
+  {
+   "headline": "Thanksgiving week: core PCE and preliminary Q3 GDP Wed Nov 25",
+   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-pce-in-focus-after-ai-sell-off-in-holiday-shortened-week-1646337",
+   "area": "makro"
+  },
+  {
+   "headline": "Dell earnings Tue Nov 24 after the close: est. EPS $6.59, revenue about $49.2B",
+   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-pce-in-focus-after-ai-sell-off-in-holiday-shortened-week-1646337",
+   "area": "makro"
+  }
+ ]
+}
