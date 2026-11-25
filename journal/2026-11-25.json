@@ -1,0 +1,40 @@
+{
+ "date": "2026-11-25",
+ "written_utc": "2026-11-25T13:23Z",
+ "picks": [
+  {
+   "ticker": "DELL",
+   "confidence": 3,
+   "horizon_days": 5,
+   "reason": "Dell rapporterede rekordstort Q3 FY27 med omsætning på 54,9 mia. USD (+103 % y/y), AI-ordrer på 60,2 mia. USD og AI-backlog på 132,3 mia. USD, og hævede FY27-omsætningsguiden til 202,0 mia. USD (fra 192,0 mia.) og EPS-guiden til 29,68 USD (fra 25,50 USD), hvilket er ny information fra 24. november; det er ikke verificeret, om kursreaktionen allerede er indregnet i dagens handel.",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm"
+   ]
+  }
+ ],
+ "no_pick_reason": "",
+ "headlines_read": 4,
+ "note": "Agenten for pharma/Europa fandt intet; makro fandt kun en udgivelseskalender.",
+ "headlines": [
+  {
+   "headline": "Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm",
+   "area": "ai-halvledere"
+  },
+  {
+   "headline": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+   "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
+   "area": "big-tech"
+  },
+  {
+   "headline": "Tech stocks see monster rally after Jensen Huang returns as Nvidia CEO",
+   "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+   "area": "big-tech"
+  },
+  {
+   "headline": "BEA GDP advance estimate for Q3 2026 (3.4% annualized) lists the next release, GDP second estimate, for November 25, 2026 at 8:30 a.m. ET",
+   "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/",
+   "area": "makro"
+  }
+ ]
+}
