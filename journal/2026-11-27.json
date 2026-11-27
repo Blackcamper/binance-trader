@@ -1,0 +1,50 @@
+{
+ "date": "2026-11-27",
+ "written_utc": "2026-11-27T13:23Z",
+ "picks": [],
+ "no_pick_reason": "Nyhedsfilen er overvejende makrodata (PCE-inflation, stærk BNP-revision, en Fed-renteforhøjelse der allerede er prissat til ca. 98%, og en halvdagssession), og de ticker-specifikke nyheder (NVDA-udsalg, Brent-stigning efter Houthi-angreb) giver ikke en klar fordel over QQQ efter 0,5% omkostninger på fem handelsdage.",
+ "headlines_read": 8,
+ "note": "Agenterne for AI/halvledere, big tech og pharma/Europa fandt intet.",
+ "headlines": [
+  {
+   "headline": "October PCE inflation rises to 3.8% y/y; core PCE 3.3% vs 3.2% expected",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Q3 GDP revised up to 4.3% annualized, from 3.4% advance estimate",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25",
+   "area": "makro"
+  },
+  {
+   "headline": "Stocks close mixed Nov 25: S&P 500 -0.25% to 7,182.78, Dow +0.33% to 50,182.95, Nasdaq -0.62% to 23,585.80",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25",
+   "area": "makro"
+  },
+  {
+   "headline": "Nvidia falls 3.9% to 149.30 as AI chip sell-off extends a second day; intraday drop up to 8%",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Markets price roughly 98% odds of a 25bp Fed rate hike at the December meeting",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+   "area": "makro"
+  },
+  {
+   "headline": "Treasuries rally: 10-year yield falls 6bp to 4.85%, 2-year to 4.61%, 30-year to 5.24%",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25",
+   "area": "makro"
+  },
+  {
+   "headline": "Brent settles up 3.5% to $94.61 after Houthi attack on Saudi Arabia's Ras Tanura refinery; WTI $83.68",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25",
+   "area": "makro"
+  },
+  {
+   "headline": "Markets close early Friday Nov 27 (stocks 1pm ET); SharkNinja joins S&P 500 Dec 2",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25",
+   "area": "makro"
+  }
+ ]
+}
